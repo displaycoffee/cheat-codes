@@ -1,0 +1,85 @@
+/*  NAVIGATION MENU 03
+    -------------------------------------------------------------------------- */
+
+	#dc-navigation-menu-03,	#dc-navigation-menu-03 * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	}
+	#dc-navigation-menu-03 {
+		max-width: 100%;
+		width: auto;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#dc-navigation-menu-03 ul,	#dc-navigation-menu-03 ul li {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	#dc-navigation-menu-03 ul li a,	#dc-navigation-menu-03 ul li span {
+		display: block;
+		padding: 20px;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	#dc-navigation-menu-03 ul li a:hover {
+		color: #461515;
+	}
+	#dc-navigation-menu-03 .dc-navigation-list {
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: -moz-flex;
+		display: flex;
+		-webkit-align-items: center;
+		align-items: center;
+		background-color: #942929;
+	}
+	#dc-navigation-menu-03 .dc-navigation-list .dc-navigation-list-item {
+		position: relative;
+		min-width: 1px;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		-moz-flex: 0 1 auto;
+		flex: 0 1 auto;
+		width: 20%;
+	}
+	#dc-navigation-menu-03 .dc-navigation-list .dc-navigation-list-item:hover .dc-navigation-sublist {
+		top: auto;
+		left: 0;
+		right: 0;
+		background-color: #5c1b1b;
+	}
+	#dc-navigation-menu-03 .dc-navigation-list .dc-navigation-list-item .dc-navigation-sublist,
+	#dc-navigation-menu-03 .dc-navigation-list .dc-navigation-list-item .dc-navigation-sublist:before {
+		position: absolute;
+		z-index: 100;
+		margin: 0 auto;
+	}
+	#dc-navigation-menu-03 .dc-navigation-list .dc-navigation-list-item .dc-navigation-sublist {
+		top: -9999px;
+		left: -9999px;
+	}
+	#dc-navigation-menu-03 .dc-navigation-list .dc-navigation-list-item .dc-navigation-sublist:before {
+		content: '';
+		display: block;
+		width: 0;
+		height: 0;
+		border-left: 13px solid transparent;
+		border-right: 13px solid transparent;
+		border-bottom: 13px solid #5c1b1b;
+		top: -13px;
+		left: 0;
+		right: 0;
+	}
+	#dc-navigation-menu-03 .dc-navigation-list-item .dc-navigation-sublist .dc-navigation-sublist-item a,
+	#dc-navigation-menu-03 .dc-navigation-list-item .dc-navigation-sublist .dc-navigation-sublist-item span {
+		padding: 10px;
+	}
+	#dc-navigation-menu-03 .dc-navigation-list-item .dc-navigation-sublist .dc-navigation-sublist-item a:hover {
+		color: #e54444;
+	}
