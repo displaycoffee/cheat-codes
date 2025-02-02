@@ -1,0 +1,34 @@
+{
+	"name": "cheat-codes",
+	"version": "1.0.0",
+	"description": "Contains code snippets for dropping into sites.",
+	"type": "module",
+	"keywords": [],
+	"author": "displaycoffee",
+	"license": "ISC",
+	"scripts": {
+		"format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+		"lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.1",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-import": "^2.30.0",
+		"eslint-plugin-jsx-a11y": "^6.10.0",
+		"eslint-plugin-react": "^7.36.1",
+		"eslint-plugin-react-hooks": "^4.6.2",
+		"prettier": "^3.3.3",
+		"sass": "1.78.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/displaycoffee/cheat-codes.git"
+	},
+	"bugs": {
+		"url": "https://github.com/displaycoffee/cheat-codes/issues"
+	},
+	"homepage": "https://github.com/displaycoffee/cheat-codes#readme",
+	"browserslist": [
+		"last 2 versions"
+	]
+}
