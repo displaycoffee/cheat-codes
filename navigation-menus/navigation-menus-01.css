@@ -29,8 +29,8 @@
 		color: #4bc6f3;
 	}
 	#dc-navigation-menu-01 .dc-navigation-list {
-		-webkit-flex-flow: row wrap;
-		flex-flow: row wrap;
+		-webkit-flex-flow: row nowrap;
+		flex-flow: row nowrap;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: -moz-flex;

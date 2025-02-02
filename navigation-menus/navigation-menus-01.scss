@@ -50,8 +50,8 @@
 			}
 		}
 		.dc-navigation-list {
-			-webkit-flex-flow: row wrap;
-			flex-flow: row wrap;
+			-webkit-flex-flow: row nowrap;
+			flex-flow: row nowrap;
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: -moz-flex;

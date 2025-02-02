@@ -50,8 +50,8 @@
 			}
 		}
 		.dc-navigation-list {
-			-webkit-flex-flow: row wrap;
-			flex-flow: row wrap;
+			-webkit-flex-flow: row nowrap;
+			flex-flow: row nowrap;
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: -moz-flex;
@@ -68,7 +68,7 @@
 				width: calc(100% / $menu-items-per-row);
 				&:nth-child(even), &:nth-child(even) .dc-navigation-sublist .dc-navigation-sublist-item:nth-child(even),
 				&:nth-child(odd) .dc-navigation-sublist .dc-navigation-sublist-item:nth-child(odd) {
-					background: $menu-color-04;
+					background-color: $menu-color-04;
 				}
 				&:hover .dc-navigation-sublist {
 					top: auto;
