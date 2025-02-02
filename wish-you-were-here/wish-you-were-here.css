@@ -1,0 +1,165 @@
+/*  WISH YOU WERE HERE
+    -------------------------------------------------------------------------- */
+
+	@import url('https://fonts.googleapis.com/css2?family=Damion&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+	.dc-wish-you-were-here, .dc-wish-you-were-here * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.dc-wish-you-were-here, .dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles span:before {
+		background-color: #373026;
+	}
+	.dc-wish-you-were-here {
+		max-width: 100%;
+		border: 2px solid #c97f4a;
+		border-bottom: 20px solid #c97f4a;
+	}
+	.dc-wish-you-were-here * {
+		font-family: 'Lato', Arial sans-serif;
+		font-size: 13px;
+		line-height: 1.5;
+		color: #ffffff;
+	}
+	.dc-wish-you-were-here a {
+		color: #c97f4a;
+		text-decoration: none;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content a:hover {
+		color: #ffffff;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-title {
+		font-family: 'Damion', Arial, sans-serif;
+		font-weight: normal;
+		text-shadow: none;
+		letter-spacing: 0;
+		line-height: 1.2;
+	}
+	.dc-wish-you-were-here h3.dc-wish-you-were-here-title {
+		font-size: 40px;
+	}
+	.dc-wish-you-were-here h4.dc-wish-you-were-here-title {
+		font-size: 30px;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-banner {
+		width: 100%;
+		height: 250px;
+		background: url('//display.coffee/assets/images/cheat-codes/wish-you-were-here.jpg') no-repeat;
+		background-size: cover;
+		padding: 20px;
+		position: relative;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-title,
+	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles {
+		position: absolute;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-title {
+		text-align: right;
+		text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
+		bottom: 30px;
+		right: 20px;
+		margin: 0;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles {
+		bottom: 0;
+		right: 0;
+		left: 0;
+		-webkit-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: -moz-flex;
+		display: flex;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles span {
+		min-width: 1px;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		-moz-flex: 0 1 auto;
+		flex: 0 1 auto;
+		width: 10%;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles span:before {
+		content: '';
+		display: block;
+		width: 100%;
+		height: 0;
+		padding-bottom: 50%;
+		line-height: 0;
+		-webkit-border-radius: 50% 50% 0 0;
+		-moz-border-radius: 50% 50% 0 0;
+		-ms-border-radius: 50% 50% 0 0;
+		-o-border-radius: 50% 50% 0 0;
+		border-radius: 50% 50% 0 0;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content {
+		padding: 20px;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content dl, .dc-wish-you-were-here .dc-wish-you-were-here-content p,
+	.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-title {
+		margin: 0 0 20px 0;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content dl:last-child, 
+	.dc-wish-you-were-here .dc-wish-you-were-here-content p:last-child {
+		margin-bottom: 0;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content dl dt, 
+	.dc-wish-you-were-here .dc-wish-you-were-here-content dl dd {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 5px 0;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content dl dt {
+		width: 35%;
+		font-weight: bold;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content dl dd {
+		width: 65%;
+		padding: 0 0 0 20px;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content p {
+		text-align: justify;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-separator {
+		padding: 0 5px;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-separator:before {
+		content: '|';
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-title {
+		text-shadow: 0 2px 0 rgba(0, 0, 0, 1.0);
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-row {
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: -moz-flex;
+		display: flex;
+		margin: 0 -20px -20px -20px;
+	}
+	.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-row .dc-wish-you-were-here-column {
+		min-width: 1px;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		-moz-flex: 0 1 auto;
+		flex: 0 1 auto;
+		width: 100%;
+		padding: 0 20px;
+		margin: 0 0 20px 0;
+	}
+	@media only screen and (min-width: 768px) {
+		.dc-wish-you-were-here {
+			max-width: 650px;
+		}
+		.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles {
+			bottom: -20px;
+		}
+		.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-title {
+			text-align: right;
+		}
+		.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-row .dc-wish-you-were-here-column {
+			width: 50%;
+		}
+	}

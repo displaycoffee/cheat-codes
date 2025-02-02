@@ -1,0 +1,73 @@
+/*  NAVIGATION MENU 02
+    -------------------------------------------------------------------------- */
+
+	#dc-navigation-menu-02, #dc-navigation-menu-02 * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	}
+	#dc-navigation-menu-02 {
+		max-width: 100%;
+		width: auto;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#dc-navigation-menu-02 ul, #dc-navigation-menu-02 ul li {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	#dc-navigation-menu-02 ul li a,	#dc-navigation-menu-02 ul li span {
+		display: block;
+		padding: 20px;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	#dc-navigation-menu-02 ul li {
+		background-color: #0f5d21;
+	}
+	#dc-navigation-menu-02 ul li a:hover {
+		color: #000000;
+	}
+	#dc-navigation-menu-02 .dc-navigation-list {
+		-webkit-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: -moz-flex;
+		display: flex;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	#dc-navigation-menu-02 .dc-navigation-list .dc-navigation-list-item {
+		position: relative;
+		min-width: 1px;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		-moz-flex: 0 1 auto;
+		flex: 0 1 auto;
+		width: 20%;
+	}
+	#dc-navigation-menu-02 .dc-navigation-list .dc-navigation-list-item:nth-child(even),
+	#dc-navigation-menu-02 .dc-navigation-list .dc-navigation-list-item:nth-child(even)	.dc-navigation-sublist .dc-navigation-sublist-item:nth-child(even),
+	#dc-navigation-menu-02 .dc-navigation-list .dc-navigation-list-item:nth-child(odd) .dc-navigation-sublist .dc-navigation-sublist-item:nth-child(odd) {
+		background-color: #127f2c;
+	}
+	#dc-navigation-menu-02 .dc-navigation-list .dc-navigation-list-item:hover .dc-navigation-sublist {
+		top: auto;
+		left: 0;
+		right: 0;
+	}
+	#dc-navigation-menu-02 .dc-navigation-list .dc-navigation-list-item .dc-navigation-sublist {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+		z-index: 100;
+		margin: 0 auto;
+	}
+	#dc-navigation-menu-02 .dc-navigation-list-item .dc-navigation-sublist .dc-navigation-sublist-item a,
+	#dc-navigation-menu-02 .dc-navigation-list-item .dc-navigation-sublist .dc-navigation-sublist-item span {
+		padding: 10px;
+	}
