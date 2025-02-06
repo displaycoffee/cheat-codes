@@ -8,13 +8,11 @@
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-	.dc-wish-you-were-here, .dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles span:before {
-		background-color: #373026;
-	}
 	.dc-wish-you-were-here {
 		max-width: 100%;
 		border: 2px solid #c97f4a;
 		border-bottom: 20px solid #c97f4a;
+		background-color: #373026;
 	}
 	.dc-wish-you-were-here * {
 		font-family: 'Lato', Arial sans-serif;
@@ -53,6 +51,7 @@
 	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-title,
 	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles {
 		position: absolute;
+		z-index: 1;
 	}
 	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-title {
 		text-align: right;
@@ -62,38 +61,17 @@
 		margin: 0;
 	}
 	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles {
-		bottom: 0;
+		height: 50px;
+		bottom: -30px;
 		right: 0;
 		left: 0;
-		-webkit-flex-flow: row nowrap;
-		flex-flow: row nowrap;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: -moz-flex;
-		display: flex;
-	}
-	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles span {
-		min-width: 1px;
-		-webkit-flex: 0 1 auto;
-		-ms-flex: 0 1 auto;
-		-moz-flex: 0 1 auto;
-		flex: 0 1 auto;
-		width: 10%;
-	}
-	.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles span:before {
-		content: '';
-		display: block;
-		width: 100%;
-		height: 0;
-		padding-bottom: 50%;
-		line-height: 0;
-		-webkit-border-radius: 50% 50% 0 0;
-		-moz-border-radius: 50% 50% 0 0;
-		-ms-border-radius: 50% 50% 0 0;
-		-o-border-radius: 50% 50% 0 0;
-		border-radius: 50% 50% 0 0;
+		background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23373026' /%3E%3C/svg%3E");
+		background-size: auto 100%;
+		background-repeat: repeat-x;
 	}
 	.dc-wish-you-were-here .dc-wish-you-were-here-content {
+		position: relative;
+		z-index: 2;
 		padding: 20px;
 	}
 	.dc-wish-you-were-here .dc-wish-you-were-here-content dl, .dc-wish-you-were-here .dc-wish-you-were-here-content p,
@@ -152,9 +130,6 @@
 	@media only screen and (min-width: 768px) {
 		.dc-wish-you-were-here {
 			max-width: 650px;
-		}
-		.dc-wish-you-were-here .dc-wish-you-were-here-banner .dc-wish-you-were-here-circles {
-			bottom: -20px;
 		}
 		.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-title {
 			text-align: right;
