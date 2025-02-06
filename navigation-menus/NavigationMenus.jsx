@@ -4,11 +4,11 @@ export const NavigationMenus = (props) => {
 
 	return (
 		<nav id={`dc-navigation-menu-${id}`} className="dc-navigation-menu displaycoffee">
-			<ul className="dc-navigation-list unstyled">
+			<ul className="dc-navigation-list">
 				<li className="dc-navigation-list-item">
 					<a href="/">Link 1</a>
 
-					<ul className="dc-navigation-sublist unstyled">
+					<ul className="dc-navigation-sublist">
 						<li className="dc-navigation-sublist-item">
 							<span>Sub Menu Link 1</span>
 						</li>
@@ -27,7 +27,7 @@ export const NavigationMenus = (props) => {
 				<li className="dc-navigation-list-item">
 					<span>Link 2</span>
 
-					<ul className="dc-navigation-sublist unstyled">
+					<ul className="dc-navigation-sublist">
 						<li className="dc-navigation-sublist-item">
 							<a href="/">Sub Menu Link 1</a>
 						</li>
@@ -46,7 +46,7 @@ export const NavigationMenus = (props) => {
 				<li className="dc-navigation-list-item">
 					<a href="/">Link 3</a>
 
-					<ul className="dc-navigation-sublist unstyled">
+					<ul className="dc-navigation-sublist">
 						<li className="dc-navigation-sublist-item">
 							<a href="/">Sub Menu Link 1</a>
 						</li>
@@ -65,7 +65,7 @@ export const NavigationMenus = (props) => {
 				<li className="dc-navigation-list-item">
 					<a href="/">Link 4</a>
 
-					<ul className="dc-navigation-sublist unstyled">
+					<ul className="dc-navigation-sublist">
 						<li className="dc-navigation-sublist-item">
 							<a href="/">Sub Menu Link 1</a>
 						</li>
@@ -84,7 +84,7 @@ export const NavigationMenus = (props) => {
 				<li className="dc-navigation-list-item">
 					<span>Link 5</span>
 
-					<ul className="dc-navigation-sublist unstyled">
+					<ul className="dc-navigation-sublist">
 						<li className="dc-navigation-sublist-item">
 							<a href="/">Sub Menu Link 1</a>
 						</li>
