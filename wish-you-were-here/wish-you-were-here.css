@@ -1,7 +1,7 @@
 /*  WISH YOU WERE HERE
     -------------------------------------------------------------------------- */
 
-	@import url('https://fonts.googleapis.com/css2?family=Damion&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+	@import url('//fonts.googleapis.com/css2?family=Damion&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 	.dc-wish-you-were-here, .dc-wish-you-were-here * {
 		-webkit-box-sizing: border-box;
@@ -15,7 +15,7 @@
 		background-color: #373026;
 	}
 	.dc-wish-you-were-here * {
-		font-family: 'Lato', Arial sans-serif;
+		font-family: 'Lato', Arial, sans-serif;
 		font-size: 13px;
 		line-height: 1.5;
 		color: #ffffff;
