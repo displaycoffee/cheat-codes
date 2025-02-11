@@ -1,10 +1,10 @@
 export const FriendsNotFood = () => {
 	return (
 		<div className="dc-friends-not-food displaycoffee">
-			<div className="dc-friends-not-food-wrapper">
-				<div className="dc-friends-not-food-hover dc-friends-not-food-font dc-friends-not-food-absolute">Hover For More</div>
+			<div className="dc-friends-not-food-container dc-friends-not-food-vertical">
+				<div className="dc-friends-not-food-hover dc-friends-not-food-font">Hover For More</div>
 
-				<div className="dc-friends-not-food-information">
+				<div className="dc-friends-not-food-information-01">
 					<div className="dc-friends-not-food-top-bar">
 						<div className="dc-friends-not-food-name">
 							<h3 className="dc-friends-not-food-font">Imma Shark, Baby</h3>
@@ -87,7 +87,7 @@ export const FriendsNotFood = () => {
 					</div>
 				</div>
 
-				<div className="dc-friends-not-food-more dc-friends-not-food-absolute">
+				<div className="dc-friends-not-food-information-02 dc-friends-not-food-vertical dc-friends-not-food-absolute">
 					<div className="dc-friends-not-food-block">
 						<p>
 							Quagga mussel cat shark is batfish frogfish. . Peppered moray clownfish hawkfish at seahorse hammerhead a funny snake eel.
@@ -100,8 +100,6 @@ export const FriendsNotFood = () => {
 							seahorse banded eel, butter hamlet are butterflyfish blue tang, wabas.
 						</p>
 					</div>
-
-					<div className="dc-friends-not-food-divider"></div>
 
 					<div className="dc-friends-not-food-block">
 						<p>
