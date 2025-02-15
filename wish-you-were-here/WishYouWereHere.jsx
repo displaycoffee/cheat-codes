@@ -1,11 +1,12 @@
 export const WishYouWereHere = () => {
 	return (
 		<div className="dc-wish-you-were-here displaycoffee">
-			<div className="dc-wish-you-were-here-banner">
+			<header className="dc-wish-you-were-here-banner">
 				<h3 className="dc-wish-you-were-here-title">Wish you were here...</h3>
 				<div className="dc-wish-you-were-here-circles"></div>
-			</div>
-			<div className="dc-wish-you-were-here-content">
+			</header>
+
+			<main className="dc-wish-you-were-here-content">
 				<div className="dc-wish-you-were-here-row">
 					<div className="dc-wish-you-were-here-column dc-wish-you-were-here-column-01">
 						<dl>
@@ -36,6 +37,7 @@ export const WishYouWereHere = () => {
 							<a href="/">Link 03</a>
 						</p>
 					</div>
+
 					<div className="dc-wish-you-were-here-column dc-wish-you-were-here-column-02">
 						<h4 className="dc-wish-you-were-here-title">Biography</h4>
 						<p>
@@ -52,7 +54,7 @@ export const WishYouWereHere = () => {
 						</p>
 					</div>
 				</div>
-			</div>
+			</main>
 		</div>
 	);
 };
