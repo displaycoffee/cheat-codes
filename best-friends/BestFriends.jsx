@@ -19,8 +19,8 @@ export const FriendsNotFood = () => {
 						<div className="dc-friends-not-food-avatar dc-friends-not-food-absolute">
 							<img
 								src="//display.coffee/assets/images/cheat-codes/friends-not-food-avatar.gif"
-								alt="Shark swimming"
-								title="Shark swimming"
+								alt="Friends Not Food - Avatar"
+								title="Friends Not Food - Avatar"
 							/>
 						</div>
 					</div>

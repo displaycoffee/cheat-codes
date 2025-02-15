@@ -1,212 +1,206 @@
 /*  DREAMING OF SNOW
     -------------------------------------------------------------------------- */
 
-	@import url('//fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
-
-	.dc-friends-not-food {
+	@import url('//fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+	
+	.dc-dreaming-of-snow {
 		width: auto;
 		max-width: 100%;
 		margin: 0;
+		padding: 20px;
+		background-color: #ffffff;
 	}
-	.dc-friends-not-food, .dc-friends-not-food * {
+	.dc-dreaming-of-snow, .dc-dreaming-of-snow * {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-		font-family: "Open Sans", Arial, sans-serif;
-		font-size: 12px;
+		font-family: Vollkorn, 'Times New Roman', Times, serif;
+		font-size: 14px;
 		font-weight: 400;
 		line-height: 1.5;
-		color: #ffffff;
+		color: #666666;
 	}
-	.dc-friends-not-food .dc-friends-not-food-font {
-		font-family: "Oswald", Arial, sans-serif;
-		font-size: 18px;
+	.dc-dreaming-of-snow h3, .dc-dreaming-of-snow h4 {
+		font-family: 'La Belle Aurore', Arial, Helvetica, sans-serif;
+		font-size: 20px;
 		font-weight: 400;
 		line-height: 1.2;
 		letter-spacing: 0;
-		text-transform: uppercase;
-		text-shadow: none;
+		text-transform: none;
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+		color: #ffffff;
+		margin: 0;
 	}
-	.dc-friends-not-food .dc-friends-not-food-absolute {
-		position: absolute;
-		left: 0;
-		right: 0;
+	.dc-dreaming-of-snow p, .dc-dreaming-of-snow .dc-dreaming-of-snow-header, .dc-dreaming-of-snow .dc-dreaming-of-snow-content {
+		margin: 0 0 20px 0;
 	}
-	.dc-friends-not-food .dc-friends-not-food-block {
-		background-color: rgba(23, 71, 109, 0.6);
-		padding: 10px;
+	.dc-dreaming-of-snow p:last-child {
+		margin-bottom: 0;
 	}
-	.dc-friends-not-food .dc-friends-not-food-block span {
-		display: block;
-		margin: 2.5px 0 0 0;
-		font-size: 14px;
+	.dc-dreaming-of-snow a {
+		color: #84a7c3;
+		text-decoration: underline;
 	}
-	.dc-friends-not-food .dc-friends-not-food-row, .dc-friends-not-food .dc-friends-not-food-vertical {
+	.dc-dreaming-of-snow a:hover {
+		color: #666666;
+	}
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-row {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: -moz-flex;
 		display: flex;
-	}
-	.dc-friends-not-food .dc-friends-not-food-row > *, .dc-friends-not-food .dc-friends-not-food-vertical > * {
-		-webkit-flex: 0 1 auto;
-		-ms-flex: 0 1 auto;
-		-moz-flex: 0 1 auto;
-		flex: 0 1 auto;
-		min-height: 1px;
-		min-width: 1px;
-	}
-	.dc-friends-not-food .dc-friends-not-food-row {
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
-		-webkit-align-items: center;
-		align-items: center;
-		margin: 0 -5px -10px -5px;
+		margin: 0 -10px -20px -10px;
 	}
-	.dc-friends-not-food .dc-friends-not-food-row .dc-friends-not-food-column {
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-row .dc-dreaming-of-snow-column {
+		-webkit-flex: 1 1 100%;
+		-ms-flex: 1 1 100%;
+		-moz-flex: 1 1 100%;
+		flex: 1 1 100%;
+		width: auto;
+		min-height: 1px;
+		min-width: 1px;
+		padding: 0 10px;
+		margin: 0 0 20px 0;
+	}
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-blue {
+		padding: 10px;
+		background-color: rgba(44, 74, 98, 0.8);
+	}
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header {
+		background: url('//display.coffee/assets/images/cheat-codes/dreaming-of-snow-bg.jpg') no-repeat 0 0;
+		background-size: cover;
 		width: 100%;
-		padding: 0 5px;
-		margin: 0 0 10px 0;
+		height: 300px;
+		padding: 20px;
 	}
-	.dc-friends-not-food .dc-friends-not-food-vertical {
-		-webkit-flex-flow: column nowrap;
-		flex-flow: column nowrap;
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-row {
+		height: 100%;
 	}
-	.dc-friends-not-food p, .dc-friends-not-food h3, .dc-friends-not-food h4 {
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-row .dc-dreaming-of-snow-column {
+		position: relative;
 		margin: 0;
 	}
-	.dc-friends-not-food .dc-friends-not-food-name .dc-friends-not-food-font, 
-	.dc-friends-not-food .dc-friends-not-food-hover {
-		text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.75);
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-row .dc-dreaming-of-snow-column-title {
+		-webkit-align-self: flex-end;
+		align-self: flex-end;
 	}
-	.dc-friends-not-food .dc-friends-not-food-container {
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-row .dc-dreaming-of-snow-column-avatar {
+		order: -1;
+	}
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar, 
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar .dc-dreaming-of-snow-blue {
+		max-width: 150px;
+		position: absolute;
+	}
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar {
+		margin: 0 10px;
+		top: 0;
+		right: 0;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-o-border-radius: 50%;
+		border-radius: 50%;
+		border: 5px solid #ffffff;
+		overflow: hidden;
+	}
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar:hover .dc-dreaming-of-snow-blue {
+		opacity: 1;
+		visibility: visible;
+	}
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar .dc-dreaming-of-snow-image-wrapper {
 		position: relative;
-		background: url("//display.coffee/assets/images/cheat-codes/friends-not-food-bg.jpg") no-repeat 0 0;
-		background-size: cover;
+		z-index: 1;
+		height: 0;
+		padding-bottom: 100%;
 	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 {
-		padding: 20px;
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar .dc-dreaming-of-snow-blue {
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 2;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: -moz-flex;
+		display: flex;
+		-webkit-flex-flow: column nowrap;
+		flex-flow: column nowrap;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-align-items: center;
+		align-items: center;
+		opacity: 0;
+		visibility: hidden;
 		-webkit-transition: opacity 0.5s ease;
 		-o-transition: opacity 0.5s ease;
 		-ms-transition: opacity 0.5s ease;
 		-moz-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
 	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-hover {
-		order: 10;
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar .dc-dreaming-of-snow-blue p {
+		max-width: 80%;
+		max-height: 80%;
+		font-size: 10px;
 		text-align: center;
-		background-color: #17476d;
-		padding: 0 20px;
-		line-height: 60px;
-		cursor: pointer;
-		bottom: 20px;
-		left: 20px;
-		right: 20px;
-		z-index: 1;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-hover:hover ~ .dc-friends-not-food-information-01 {
-		opacity: 0;
-		visibility: hidden;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-hover:hover ~ .dc-friends-not-food-information-02 {
-		visibility: visible;
-		opacity: 1;
-		z-index: 2;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header {
-		position: relative;
-		width: auto;
-		background-color: #17476d;
-		margin: -20px -20px 0 -20px;
-		padding: 20px 20px 60px 20px;
-		text-align: center;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-name, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-species {
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+		color: #ffffff;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
 		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
+		-webkit-line-clamp: 4;
 	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-species {
-		margin: 5px 0 0 0;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-species p, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-species strong {
-		font-size: 14px;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-avatar {
-		border-radius: 50%;
-		overflow: hidden;
-		width: 100px;
-		height: 100px;
-		bottom: -50px;
-		margin: auto;
-		line-height: 0;
-		border: 5px solid #17476d;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-avatar img {
-		max-width: 100%;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile {
-		margin: 82.5px 0 0 0;
+	.dc-dreaming-of-snow .dc-dreaming-of-snow-footer {
 		text-align: center;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-title, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-quote {
-		width: 100%;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-title .dc-friends-not-food-font {
-		font-size: 16px;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-quote {
-		text-align: right;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-quote span {
-		margin: 5px 0 0 0;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 {
-		top: 0;
-		bottom: 60px;
-		z-index: 1;
-		margin: auto;
-		opacity: 0;
-		visibility: hidden;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block {
-		-webkit-flex: 1 1 0%;
-		-ms-flex: 1 1 0%;
-		-moz-flex: 1 1 0%;
-		flex: 1 1 0%;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block p {
-		margin: 0 0 20px 0;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block:last-child, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block p:last-child {
-		margin-bottom: 0;
 	}
 	@media only screen and (min-width: 541px) {
-		.dc-friends-not-food {
-			max-width: 400px;
+		.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-row .dc-dreaming-of-snow-column-title {
+			-webkit-flex: 1 1 0%;
+			-ms-flex: 1 1 0%;
+			-moz-flex: 1 1 0%;
+			flex: 1 1 0%;
 		}
-		.dc-friends-not-food .dc-friends-not-food-row .dc-friends-not-food-column {
-			width: 50%;
+		.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-row .dc-dreaming-of-snow-column-avatar {
+			order: 10;
+			-webkit-flex: 0 0 150px;
+			-ms-flex: 0 0 150px;
+			-moz-flex: 0 0 150px;
+			flex: 0 0 150px;
 		}
-		.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header {
-			padding: 20px 180px 20px 20px;
-			text-align: left;
+		.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-title {
+			max-width: 350px;
 		}
-		.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-name {
-			margin: 40px 0 0 0;
+		.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar, 
+		.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar .dc-dreaming-of-snow-blue {
+			max-width: 100%;
 		}
-		.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-avatar {
-			width: 125px;
-			height: 125px;
-			bottom: -62.5px;
-			right: 20px;
-			left: auto;
-			margin: 0;
-			border-width: 10px;
+		.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar {
+			top: auto;
+			bottom: 0;
+		}
+	}
+	@media only screen and (min-width: 768px) {
+		.dc-dreaming-of-snow {
+			max-width: 768px;
+		}
+		.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-row .dc-dreaming-of-snow-column-avatar {
+			-webkit-flex: 0 0 200px;
+			-ms-flex: 0 0 200px;
+			-moz-flex: 0 0 200px;
+			flex: 0 0 200px;
+		}
+		.dc-dreaming-of-snow .dc-dreaming-of-snow-header .dc-dreaming-of-snow-avatar .dc-dreaming-of-snow-blue p {
+			max-width: 75%;
+			max-height: 75%;
+			font-size: 14px;
+			-webkit-line-clamp: 5;
+		}
+		.dc-dreaming-of-snow .dc-dreaming-of-snow-content .dc-dreaming-of-snow-row .dc-dreaming-of-snow-column {
+			-webkit-flex: 1 1 0%;
+			-ms-flex: 1 1 0%;
+			-moz-flex: 1 1 0%;
+			flex: 1 1 0%;
 		}
 	}
