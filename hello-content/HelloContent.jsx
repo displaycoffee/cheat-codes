@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 export const HelloContent = (props) => {
 	let { tabs, defaultTab } = props;
-	defaultTab = typeof defaultTab == 'undefined' ? 0 : defaultTab;
+	defaultTab = typeof defaultTab == 'undefined' ? 0 : defaultTab - 1;
 	let [activeTab, setActiveTab] = useState(defaultTab);
 	const activeClass = 'dc-hello-content-active';
 
