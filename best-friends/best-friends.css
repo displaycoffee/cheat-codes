@@ -1,212 +1,123 @@
 /*  BEST FRIENDS
     -------------------------------------------------------------------------- */
 
-	@import url('//fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
-
-	.dc-friends-not-food {
+	.dc-best-friends {
 		width: auto;
 		max-width: 100%;
 		margin: 0;
+		background-color: #383c46;
+		border: 1px solid #2d3038;
 	}
-	.dc-friends-not-food, .dc-friends-not-food * {
+	.dc-best-friends, .dc-best-friends * {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-		font-family: "Open Sans", Arial, sans-serif;
-		font-size: 12px;
+		font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+		font-size: 14px;
 		font-weight: 400;
 		line-height: 1.5;
-		color: #ffffff;
+		color: #f5f5f5;
 	}
-	.dc-friends-not-food .dc-friends-not-food-font {
-		font-family: "Oswald", Arial, sans-serif;
-		font-size: 18px;
+	.dc-best-friends h3, .dc-best-friends h4, .dc-best-friends p, .dc-best-friends ul {
+		margin: 0 0 20px 0;
+	}
+	.dc-best-friends h3:last-child, .dc-best-friends h4:last-child, .dc-best-friends p:last-child, .dc-best-friends ul:last-child {
+		margin-bottom: 0;
+	}
+	.dc-best-friends h3, .dc-best-friends h4 {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-style: italic;
 		font-weight: 400;
 		line-height: 1.2;
 		letter-spacing: 0;
-		text-transform: uppercase;
 		text-shadow: none;
+		color: #f5f5f5;
 	}
-	.dc-friends-not-food .dc-friends-not-food-absolute {
+	.dc-best-friends h3 {
+		font-size: 20px;
+	}
+	.dc-best-friends h4 {
+		font-size: 16px;
+	}
+	.dc-best-friends a {
+		color: #a4adc5;
+		text-decoration: none;
+	}
+	.dc-best-friends a:hover {
+		color: #f5f5f5;
+	}
+	.dc-best-friends .dc-best-friends-header {
+		position: relative;
+		line-height: 0;
+	}
+	.dc-best-friends .dc-best-friends-header img {
+		max-width: 100%;
+		width: 100%;
+	}
+	.dc-best-friends .dc-best-friends-header h3 {
 		position: absolute;
+		bottom: 0;
 		left: 0;
 		right: 0;
-	}
-	.dc-friends-not-food .dc-friends-not-food-block {
-		background-color: rgba(23, 71, 109, 0.6);
-		padding: 10px;
-	}
-	.dc-friends-not-food .dc-friends-not-food-block span {
-		display: block;
-		margin: 2.5px 0 0 0;
-		font-size: 14px;
-	}
-	.dc-friends-not-food .dc-friends-not-food-row, .dc-friends-not-food .dc-friends-not-food-vertical {
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: -moz-flex;
-		display: flex;
-	}
-	.dc-friends-not-food .dc-friends-not-food-row > *, .dc-friends-not-food .dc-friends-not-food-vertical > * {
-		-webkit-flex: 0 1 auto;
-		-ms-flex: 0 1 auto;
-		-moz-flex: 0 1 auto;
-		flex: 0 1 auto;
-		min-height: 1px;
-		min-width: 1px;
-	}
-	.dc-friends-not-food .dc-friends-not-food-row {
-		-webkit-flex-flow: row wrap;
-		flex-flow: row wrap;
-		-webkit-align-items: center;
-		align-items: center;
-		margin: 0 -5px -10px -5px;
-	}
-	.dc-friends-not-food .dc-friends-not-food-row .dc-friends-not-food-column {
-		width: 100%;
-		padding: 0 5px;
-		margin: 0 0 10px 0;
-	}
-	.dc-friends-not-food .dc-friends-not-food-vertical {
-		-webkit-flex-flow: column nowrap;
-		flex-flow: column nowrap;
-	}
-	.dc-friends-not-food p, .dc-friends-not-food h3, .dc-friends-not-food h4 {
+		background: rgba(255, 255, 255, 0.5);
 		margin: 0;
-	}
-	.dc-friends-not-food .dc-friends-not-food-name .dc-friends-not-food-font, 
-	.dc-friends-not-food .dc-friends-not-food-hover {
-		text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.75);
-	}
-	.dc-friends-not-food .dc-friends-not-food-container {
-		position: relative;
-		background: url("//display.coffee/assets/images/cheat-codes/friends-not-food-bg.jpg") no-repeat 0 0;
-		background-size: cover;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 {
 		padding: 20px;
-		-webkit-transition: opacity 0.5s ease;
-		-o-transition: opacity 0.5s ease;
-		-ms-transition: opacity 0.5s ease;
-		-moz-transition: opacity 0.5s ease;
-		transition: opacity 0.5s ease;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-hover {
-		order: 10;
-		text-align: center;
-		background-color: #17476d;
-		padding: 0 20px;
-		line-height: 60px;
-		cursor: pointer;
-		bottom: 20px;
-		left: 20px;
-		right: 20px;
-		z-index: 1;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-hover:hover ~ .dc-friends-not-food-information-01 {
-		opacity: 0;
-		visibility: hidden;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-hover:hover ~ .dc-friends-not-food-information-02 {
-		visibility: visible;
-		opacity: 1;
-		z-index: 2;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header {
-		position: relative;
-		width: auto;
-		background-color: #17476d;
-		margin: -20px -20px 0 -20px;
-		padding: 20px 20px 60px 20px;
-		text-align: center;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-name, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-species {
+		color: #383c46;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-species {
-		margin: 5px 0 0 0;
+	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons {
+		border: 0;
 	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-species p, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-species strong {
-		font-size: 14px;
+	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list,
+	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li {
+		margin: 0;
+		padding: 0;
 	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-avatar {
-		border-radius: 50%;
-		overflow: hidden;
-		width: 100px;
-		height: 100px;
-		bottom: -50px;
-		margin: auto;
-		line-height: 0;
-		border: 5px solid #17476d;
+	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li .dc-hello-content-button {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+		border-radius: 0;
+		background-color: #50634e;
+		border-color: #445543;
+		border-left-width: 0;
+		border-right-width: 0;
+		border-bottom-width: 0;
+		color: #f5f5f5;
 	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-avatar img {
-		max-width: 100%;
+	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li:last-child .dc-hello-content-button {
+		border-bottom-width: 1px;
+	} 
+	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li .dc-hello-content-active {
+		background-color: #383c46;
+		border-color: #2d3038;
 	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile {
-		margin: 82.5px 0 0 0;
-		text-align: center;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-title, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-quote {
-		width: 100%;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-title .dc-friends-not-food-font {
-		font-size: 16px;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-quote {
-		text-align: right;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-profile .dc-friends-not-food-quote span {
-		margin: 5px 0 0 0;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 {
-		top: 0;
-		bottom: 60px;
-		z-index: 1;
-		margin: auto;
-		opacity: 0;
-		visibility: hidden;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block {
-		-webkit-flex: 1 1 0%;
-		-ms-flex: 1 1 0%;
-		-moz-flex: 1 1 0%;
-		flex: 1 1 0%;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block p {
-		margin: 0 0 20px 0;
-	}
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block:last-child, 
-	.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-02 .dc-friends-not-food-block p:last-child {
-		margin-bottom: 0;
+	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-content .dc-hello-content-block {
+		background-color: transparent;
 	}
 	@media only screen and (min-width: 541px) {
-		.dc-friends-not-food {
-			max-width: 400px;
+		.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li {
+			width: 25%;
 		}
-		.dc-friends-not-food .dc-friends-not-food-row .dc-friends-not-food-column {
-			width: 50%;
+		.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li .dc-hello-content-button {
+			border-right-width: 1px;
 		}
-		.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header {
-			padding: 20px 180px 20px 20px;
-			text-align: left;
+		.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li .dc-hello-content-active {
+			border-left-width: 1px;
 		}
-		.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-name {
-			margin: 40px 0 0 0;
-		}
-		.dc-friends-not-food .dc-friends-not-food-container .dc-friends-not-food-information-01 .dc-friends-not-food-header .dc-friends-not-food-avatar {
-			width: 125px;
-			height: 125px;
-			bottom: -62.5px;
-			right: 20px;
-			left: auto;
-			margin: 0;
-			border-width: 10px;
+		.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li:first-child .dc-hello-content-button {
+			border-left-width: 0;
+		} 
+		.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li:last-child .dc-hello-content-button {
+			border-right-width: 0;
+			border-bottom-width: 0;
+		} 
+	}
+	@media only screen and (min-width: 768px) {
+		.dc-best-friends {
+			max-width: 768px;
 		}
 	}
