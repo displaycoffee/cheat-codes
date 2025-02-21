@@ -1,21 +1,21 @@
 /*  BANNER CODE GENERATOR
     -------------------------------------------------------------------------- */
 
-	.dc-banner-code-generator-tabs,	.dc-banner-code-generator-tabs * {
+	.dc-banner-code-generator, .dc-banner-code-generator * {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 12px;
-		color: #333333;
 	}
-	.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-buttons {
-		border-bottom: 1px solid #999999;
+	.dc-banner-code-generator > * {
+		margin: 0 0 20px 0;
 	}
-	.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-buttons .dc-banner-code-generator-tabs-list {
-		list-style: none;
-		margin: 0 -5px -1px -5px;
-		padding: 0;
+	.dc-banner-code-generator > *:last-child {
+		margin-bottom: 0;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-section h5 {
+		margin: 0 0 10px 0;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-section .dc-banner-code-generator-banners {
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
 		display: -webkit-flex;
@@ -24,70 +24,31 @@
 		display: flex;
 		-webkit-align-items: center;
 		align-items: center;
+		margin: 0 -5px -10px -5px;
 	}
-	.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-buttons .dc-banner-code-generator-tabs-list li {
-		width: 100%;
+	.dc-banner-code-generator .dc-banner-code-generator-section .dc-banner-code-generator-banners .dc-banner-code-generator-button {
 		min-width: 1px;
 		-webkit-flex: 0 1 auto;
 		-ms-flex: 0 1 auto;
 		-moz-flex: 0 1 auto;
 		flex: 0 1 auto;
 		padding: 0 5px;
+		margin: 0 0 10px 0;
+		background-color: transparent;
+		border: 0;
 	}
-	.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-buttons .dc-banner-code-generator-tabs-list li button {
-		display: block;
-		width: 100%;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		line-height: 1;
-		background-color: #999999;
-		border: 1px solid #999999;
-		cursor: pointer;
-		padding: 10px;
-	}
-	.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-buttons .dc-banner-code-generator-tabs-list li .dc-banner-code-generator-active {
-		background-color: #ffffff;
-		border-color: #ffffff;
-		color: #999999;
-		font-weight: 700;
-	}
-	.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-buttons .dc-banner-code-generator-tabs-list li:first-child button {
-		-webkit-border-radius: 3px 3px 0 0;
-		-moz-border-radius: 3px 3px 0 0;
-		-ms-border-radius: 3px 3px 0 0;
-		-o-border-radius: 3px 3px 0 0;
-		border-radius: 3px 3px 0 0;
-	}
-	.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-content .dc-banner-code-generator-block {
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-		z-index: -1;
-		opacity: 0;
-		visibility: hidden;
-		-webkit-transition: opacity 0.5s ease;
-		-o-transition: opacity 0.5s ease;
-		-ms-transition: opacity 0.5s ease;
-		-moz-transition: opacity 0.5s ease;
-		transition: opacity 0.5s ease;
+	.dc-banner-code-generator .dc-banner-code-generator-code pre, 
+	.dc-banner-code-generator .dc-banner-code-generator-code code {
+		background-color: #333333;
+		margin: 0;
 		padding: 20px;
-		background-color: #ffffff;
+		font-family: 'Courier New', monospace;
+		font-size: 16px;
+		color: #ffffff;
+		white-space: pre-wrap;
+		word-break: break-word;
 	}
-	.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-content .dc-banner-code-generator-block.dc-banner-code-generator-active {
-		position: static;
-		visibility: visible;
-		opacity: 1;
-	}
-	@media only screen and (min-width: 541px) {
-		.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-buttons .dc-banner-code-generator-tabs-list li {
-			width: 20%;
-		}
-		.dc-banner-code-generator-tabs .dc-banner-code-generator-tabs-buttons .dc-banner-code-generator-tabs-list li button {
-			-webkit-border-radius: 3px 3px 0 0;
-			-moz-border-radius: 3px 3px 0 0;
-			-ms-border-radius: 3px 3px 0 0;
-			-o-border-radius: 3px 3px 0 0;
-			border-radius: 3px 3px 0 0;
-		}
+	.dc-banner-code-generator .dc-banner-code-generator-code pre code {
+		padding: 0;
+		margin: 0;
 	}

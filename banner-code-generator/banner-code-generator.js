@@ -1,6 +1,16 @@
 const dcBannerCodeGenerator = {
+	activeClass: 'dc-banner-code-generator-active',
+	toggleClass: function (state, element) {
+		// Add or remove classes
+		if (state == 'add') {
+			element.classList.add(dcBannerCodeGenerator.activeClass);
+		}
+		if (state == 'remove') {
+			element.classList.remove(dcBannerCodeGenerator.activeClass);
+		}
+	},
 	build: (image, code, site) => {
-		// Set image attributes
+		// Set image attributes if available
 		const setImageAttr = (attribute) => {
 			const value = image.getAttribute(attribute) ? image.getAttribute(attribute) : false;
 			return value ? ` ${attribute}="${value}"` : ``;
@@ -11,25 +21,47 @@ const dcBannerCodeGenerator = {
 		const output = `&lt;a href="${site}"&gt;\u000D\u0009${imageCode}\u000D&lt;/a&gt;`;
 		code.innerHTML = output;
 	},
-	click: (e, code, site) => {
+	click: (e, code, site, buttons) => {
 		// Get current image
 		const selector = e.target || e.srcElement;
-		const image = selector.nodeName == 'BUTTON' ? selector.querySelector('img') : selector;
+		const currentButton = selector.nodeName == 'IMG' ? selector.parentNode : selector;
+		const currentImage = selector.nodeName == 'BUTTON' ? selector.querySelector('img') : selector;
 
-		// Set new image code
-		dcBannerCodeGenerator.build(image, code, site);
+		// Check matches and active class
+		const hasMatch = currentButton && currentImage ? true : false;
+		const hasClass = currentButton && currentButton.classList.contains(dcBannerCodeGenerator.activeClass) ? true : false;
+
+		// If there is a match and if the current button doesn't have active class, proceed
+		if (hasMatch && !hasClass) {
+			// Loop through all the buttons and content blocks and remove any active class
+			buttons.forEach((button) => {
+				if (button.classList.contains(dcBannerCodeGenerator.activeClass)) {
+					dcBannerCodeGenerator.toggleClass('remove', button);
+				}
+			});
+
+			// Then add active class to new button and content block
+			dcBannerCodeGenerator.toggleClass('add', currentButton);
+
+			// Set new image code
+			dcBannerCodeGenerator.build(currentImage, code, site);
+		}
 	},
 	init: (generatorOptions) => {
 		// Ensure options for generator are set
 		const options = {
+			default: 1,
 			site: '/',
 			container: '.dc-banner-code-generator',
-			buttons: '.dc-banner-code-generator-buttons',
+			buttons: '.dc-banner-code-generator-button',
 			code: '.dc-banner-code-generator-code code',
 		};
 
 		// Enable options override
 		if (generatorOptions) {
+			if (generatorOptions.default) {
+				options.default = generatorOptions.default;
+			}
 			if (generatorOptions.site) {
 				options.site = generatorOptions.site;
 			}
@@ -53,13 +85,20 @@ const dcBannerCodeGenerator = {
 				const buttons = generator.querySelectorAll(options.buttons);
 
 				if (code && buttons && buttons.length !== 0) {
+					// Get default index
+					const defaultIndex = options.default - 1;
+
+					// Set default button and add active class
+					const defaultButton = buttons[defaultIndex] ? buttons[defaultIndex] : buttons[0];
+					dcBannerCodeGenerator.toggleClass('add', defaultButton);
+
 					// Set initial code
-					dcBannerCodeGenerator.build(buttons[0].querySelector('img'), code, options.site);
+					dcBannerCodeGenerator.build(defaultButton.querySelector('img'), code, options.site);
 
 					// Loop through all banner buttons and attach click event
 					buttons.forEach((button) => {
 						button.onclick = (e) => {
-							dcBannerCodeGenerator.click(e, code, options.site);
+							dcBannerCodeGenerator.click(e, code, options.site, buttons);
 						};
 					});
 				}
