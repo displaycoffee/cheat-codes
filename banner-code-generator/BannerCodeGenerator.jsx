@@ -1,5 +1,5 @@
 /* React */
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 export const BannerCodeGenerator = (props) => {
 	let { banners, defaultBanner, site } = props;
@@ -55,6 +55,21 @@ export const BannerCodeGenerator = (props) => {
 		setOutput(output);
 	}, [activeBanner]);
 
+	// Set code block ref
+	const codeRef = useRef(false);
+
+	// Function to select code inside code block
+	const selectCode = () => {
+		const codeBlock = codeRef?.current;
+		if (codeBlock) {
+			const range = document.createRange();
+			range.selectNodeContents(codeBlock);
+			const selection = window.getSelection();
+			selection.removeAllRanges();
+			selection.addRange(range);
+		}
+	};
+
 	return hasBanners ? (
 		<>
 			<div className="dc-banner-code-generator displaycoffee">
@@ -90,8 +105,11 @@ export const BannerCodeGenerator = (props) => {
 				})}
 
 				<div className="dc-banner-code-generator-code">
+					<button className="dc-banner-code-generator-select-code" type="button" onClick={() => selectCode()}>
+						Select code
+					</button>
 					<pre>
-						<code>{output}</code>
+						<code ref={codeRef}>{output}</code>
 					</pre>
 				</div>
 			</div>

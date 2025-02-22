@@ -55,6 +55,7 @@ const dcBannerCodeGenerator = {
 			container: '.dc-banner-code-generator',
 			buttons: '.dc-banner-code-generator-button',
 			code: '.dc-banner-code-generator-code code',
+			select: '.dc-banner-code-generator-select-code',
 		};
 
 		// Enable options override
@@ -74,6 +75,9 @@ const dcBannerCodeGenerator = {
 			if (generatorOptions.code) {
 				options.code = generatorOptions.code;
 			}
+			if (generatorOptions.select) {
+				options.select = generatorOptions.select;
+			}
 		}
 
 		// Set generator selector
@@ -83,6 +87,7 @@ const dcBannerCodeGenerator = {
 			generators.forEach((generator) => {
 				const code = generator.querySelector(options.code);
 				const buttons = generator.querySelectorAll(options.buttons);
+				const select = generator.querySelector(options.select);
 
 				if (code && buttons && buttons.length !== 0) {
 					// Get default index
@@ -101,6 +106,17 @@ const dcBannerCodeGenerator = {
 							dcBannerCodeGenerator.click(e, code, options.site, buttons);
 						};
 					});
+				}
+
+				// Add button click for selecting code
+				if (code && select) {
+					select.onclick = () => {
+						const range = document.createRange();
+						range.selectNodeContents(code);
+						const selection = window.getSelection();
+						selection.removeAllRanges();
+						selection.addRange(range);
+					};
 				}
 			});
 		}
