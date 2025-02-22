@@ -1,0 +1,72 @@
+/*  BANNER CODE GENERATOR
+    -------------------------------------------------------------------------- */
+
+	.dc-banner-code-generator, .dc-banner-code-generator * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.dc-banner-code-generator > * {
+		margin: 0 0 20px 0;
+	}
+	.dc-banner-code-generator > *:last-child {
+		margin-bottom: 0;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-section h5 {
+		margin: 0 0 10px 0;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-section .dc-banner-code-generator-banners {
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: -moz-flex;
+		display: flex;
+		-webkit-align-items: center;
+		align-items: center;
+		margin: 0 -5px -10px -5px;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-section .dc-banner-code-generator-banners .dc-banner-code-generator-button {
+		min-width: 1px;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		-moz-flex: 0 1 auto;
+		flex: 0 1 auto;
+		padding: 0 5px;
+		margin: 0 0 10px 0;
+		background-color: transparent;
+		border: 0;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-code {
+		position: relative;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-code .dc-banner-code-generator-select-code, 
+	.dc-banner-code-generator .dc-banner-code-generator-code pre, 
+	.dc-banner-code-generator .dc-banner-code-generator-code code {
+		font-family: 'Courier New', monospace;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-code .dc-banner-code-generator-select-code {
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: 0;
+		padding: 10px;
+		background-color: rgba(0, 0, 0, 0.5);
+		font-size: 14px;
+		line-height: 1;
+		color: #ffffff;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-code pre, 
+	.dc-banner-code-generator .dc-banner-code-generator-code code {
+		background-color: #111111;
+		margin: 0;
+		padding: 20px;
+		font-size: 16px;
+		color: #ffffff;
+		white-space: pre-wrap;
+		word-break: break-word;
+	}
+	.dc-banner-code-generator .dc-banner-code-generator-code pre code {
+		padding: 0;
+		margin: 0;
+	}

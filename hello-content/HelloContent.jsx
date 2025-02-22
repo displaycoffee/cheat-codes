@@ -3,11 +3,15 @@ import React, { useState } from 'react';
 
 export const HelloContent = (props) => {
 	let { tabs, defaultTab } = props;
-	defaultTab = typeof defaultTab == 'undefined' ? 0 : defaultTab - 1;
-	let [activeTab, setActiveTab] = useState(defaultTab);
 	const activeClass = 'dc-hello-content-active';
+	const hasTabs = tabs && tabs.length !== 0 ? true : false;
 
-	return tabs && tabs.length !== 0 ? (
+	// Set default tab
+	const defaultIndex = typeof defaultTab == 'undefined' ? 0 : defaultTab - 1;
+	defaultTab = tabs[defaultIndex] ? defaultIndex : 0;
+	let [activeTab, setActiveTab] = useState(defaultTab);
+
+	return hasTabs ? (
 		<div className="dc-hello-content-tabs displaycoffee">
 			<div className="dc-hello-content-tabs-buttons">
 				<ul className="dc-hello-content-tabs-list">
