@@ -1,6 +1,6 @@
 const dcBannerCodeGenerator = {
 	activeClass: 'dc-banner-code-generator-active',
-	toggleClass: function (state, element) {
+	toggleClass: (state, element) => {
 		// Add or remove classes
 		if (state == 'add') {
 			element.classList.add(dcBannerCodeGenerator.activeClass);

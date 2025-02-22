@@ -1,6 +1,6 @@
 const dcHelloContent = {
 	activeClass: 'dc-hello-content-active',
-	toggleClass: function (state, element) {
+	toggleClass: (state, element) => {
 		// Add or remove classes
 		if (state == 'add') {
 			element.classList.add(dcHelloContent.activeClass);
@@ -9,35 +9,35 @@ const dcHelloContent = {
 			element.classList.remove(dcHelloContent.activeClass);
 		}
 	},
-	click: function (e, i, buttons, content) {
+	click: (e, i, buttons, contents) => {
 		// Get the current button and content elements
 		const currentButton = e.target || e.srcElement;
-		const currentContent = content[i];
+		const currentContents = contents[i];
 
 		// Check matches and active class
-		const hasMatch = currentButton && currentContent ? true : false;
+		const hasMatch = currentButton && currentContents ? true : false;
 		const hasClass = currentButton && currentButton.classList.contains(dcHelloContent.activeClass) ? true : false;
 
 		// If there is a match and if the current button doesn't have active class, proceed
 		if (hasMatch && !hasClass) {
 			// Loop through all the buttons and content blocks and remove any active class
-			for (let j = 0; j < buttons.length; j++) {
-				if (buttons[j].classList.contains(dcHelloContent.activeClass)) {
-					dcHelloContent.toggleClass('remove', buttons[j]);
+			buttons.forEach((button) => {
+				if (button.classList.contains(dcHelloContent.activeClass)) {
+					dcHelloContent.toggleClass('remove', button);
 				}
-			}
-			for (let k = 0; k < content.length; k++) {
-				if (content[k].classList.contains(dcHelloContent.activeClass)) {
-					dcHelloContent.toggleClass('remove', content[k]);
+			});
+			contents.forEach((content) => {
+				if (content.classList.contains(dcHelloContent.activeClass)) {
+					dcHelloContent.toggleClass('remove', content);
 				}
-			}
+			});
 
 			// Then add active class to new button and content block
 			dcHelloContent.toggleClass('add', currentButton);
-			dcHelloContent.toggleClass('add', currentContent);
+			dcHelloContent.toggleClass('add', currentContents);
 		}
 	},
-	init: function (tabOptions) {
+	init: (tabOptions) => {
 		// Ensure options for tabs are set
 		const options = {
 			default: 1,
@@ -63,35 +63,33 @@ const dcHelloContent = {
 		}
 
 		// Set tab selector
-		const tabs = document.querySelector(options.container);
+		const tabSections = document.querySelectorAll(options.container);
 
-		// Check if selector is on the page
-		if (tabs) {
-			// Get buttons and content elements
-			const buttons = tabs.querySelectorAll(options.button);
-			const content = tabs.querySelectorAll(options.content);
+		// Check if tabs sections are on the page
+		if (tabSections && tabSections.length !== 0) {
+			tabSections.forEach((tabs) => {
+				// Get buttons and content elements
+				const buttons = tabs.querySelectorAll(options.button);
+				const contents = tabs.querySelectorAll(options.content);
 
-			if (buttons && buttons.length !== 0 && content && content.length !== 0) {
-				// Get default index
-				const defaultIndex = options.default - 1;
+				if (buttons && buttons.length !== 0 && contents && contents.length !== 0) {
+					// Get default index
+					const defaultIndex = options.default - 1;
 
-				// Set default button and content block as active
-				const defaultButton = buttons[defaultIndex];
-				const defaultContent = content[defaultIndex];
-				dcHelloContent.toggleClass('add', defaultButton);
-				dcHelloContent.toggleClass('add', defaultContent);
+					// Set default button and content block as active
+					const defaultButton = buttons[defaultIndex] ? buttons[defaultIndex] : buttons[0];
+					const defaultContent = contents[defaultIndex] ? contents[defaultIndex] : contents[0];
+					dcHelloContent.toggleClass('add', defaultButton);
+					dcHelloContent.toggleClass('add', defaultContent);
 
-				// Loop through buttons and add functionality
-				for (let i = 0; i < buttons.length; i++) {
-					// Store the current index
-					const currentIndex = i;
-
-					// Attach onclick event
-					buttons[i].onclick = function (e) {
-						dcHelloContent.click(e, currentIndex, buttons, content);
-					};
+					// Loop through buttons and add functionality
+					buttons.forEach((button, index) => {
+						button.onclick = (e) => {
+							dcHelloContent.click(e, index, buttons, contents);
+						};
+					});
 				}
-			}
+			});
 		}
 	},
 };
