@@ -10,6 +10,7 @@
 
 	// Configuration
 
+	$banner-code-generator-selector: '.dc-banner-code-generator'; // selector of main wrapper element
 	$banner-code-generator-font-family: 'Courier New', monospace; // code font family
 	$banner-code-generator-font-size: 16px; // code font size
 	$banner-code-generator-spacing: 20px; // spacing for template
@@ -21,7 +22,7 @@
 
 	// Style block
 
-	.dc-banner-code-generator {
+	#{$banner-code-generator-selector} {
 		&, & * {
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;

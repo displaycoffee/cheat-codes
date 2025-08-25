@@ -1,5 +1,5 @@
 /* React */
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export const BannerCodeGenerator = (props) => {
 	let { banners, defaultBanner, site } = props;
