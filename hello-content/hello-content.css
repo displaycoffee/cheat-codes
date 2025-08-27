@@ -33,6 +33,7 @@
 		-moz-flex: 0 1 auto;
 		flex: 0 1 auto;
 		padding: 0 5px;
+		margin: 0;
 	}
 	.dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li button {
 		display: block;
