@@ -16,6 +16,7 @@
 
 	// Configuration
 
+	$wish-you-were-here-selector: '.dc-wish-you-were-here'; // selector of main wrapper element
 	$wish-you-were-here-breakpoint: 768px; // breakpoint for desktop styles
 	$wish-you-were-here-max-width: 650px; // max width
 	$wish-you-were-here-font-family-01: Lato, Arial, Helvetica, sans-serif; // font family
@@ -26,7 +27,7 @@
 
 	// Style block
 
-	.dc-wish-you-were-here {
+	#{$wish-you-were-here-selector} {
 		max-width: 100%;
 		border: 2px solid $wish-you-were-here-color-06;
 		border-bottom: 20px solid $wish-you-were-here-color-06;
@@ -151,7 +152,7 @@
 		}
 	}
 	@media only screen and (min-width: $wish-you-were-here-breakpoint) {
-		.dc-wish-you-were-here {
+		#{$wish-you-were-here-selector} {
 			max-width: $wish-you-were-here-max-width;
 			.dc-wish-you-were-here-content {
 				.dc-wish-you-were-here-title {

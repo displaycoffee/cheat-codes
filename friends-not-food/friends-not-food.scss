@@ -12,6 +12,7 @@
 
 	// Configuration
 
+	$friends-not-food-selector: '.dc-friends-not-food'; // selector of main wrapper element
 	$friends-not-food-breakpoint: 541px; // breakpoint for desktop styles
 	$friends-not-food-max-width: 400px; // max width
 	$friends-not-food-font-family-01: 'Open Sans', Arial, Helvetica, sans-serif; // font family
@@ -31,7 +32,7 @@
 
 	// Style block
 
-	.dc-friends-not-food {
+	#{$friends-not-food-selector} {
 		width: auto;
 		max-width: 100%;
 		margin: 0;
@@ -108,13 +109,14 @@
 			position: relative;
 			background: url('//display.coffee/assets/images/cheat-codes/friends-not-food-bg.jpg') no-repeat 0 0;
 			background-size: cover;
+			overflow: hidden;
 			.dc-friends-not-food-information-01, .dc-friends-not-food-information-02 {
 				padding: $friends-not-food-spacing;
-				-webkit-transition: opacity 0.5s ease;
-				-o-transition: opacity 0.5s ease;
-				-ms-transition: opacity 0.5s ease;
-				-moz-transition: opacity 0.5s ease;
-				transition: opacity 0.5s ease;
+				-webkit-transition: opacity 0.5s ease, transform 0.5s ease;
+				-o-transition: opacity 0.5s ease, transform 0.5s ease;
+				-ms-transition: opacity 0.5s ease, transform 0.5s ease;
+				-moz-transition: opacity 0.5s ease, transform 0.5s ease;
+				transition: opacity 0.5s ease, transform 0.5s ease;
 			}
 			.dc-friends-not-food-hover {
 				order: 10;
@@ -136,6 +138,11 @@
 						visibility: visible;
 						opacity: 1;
 						z-index: 2;
+						-webkit-transform: translateY(0);
+						-o-transform: translateY(0);
+						-ms-transform: translateY(0);
+						-moz-transform: translateY(0);
+						transform: translateY(0);
 					}
 				}
 			}
@@ -193,6 +200,11 @@
 				top: 0;
 				bottom: $friends-not-foods-spacing-triple;
 				z-index: 1;
+				-webkit-transform: translateY(-100%);
+				-o-transform: translateY(-100%);
+				-ms-transform: translateY(-100%);
+				-moz-transform: translateY(-100%);
+				transform: translateY(-100%);
 				margin: auto;
 				opacity: 0;
 				visibility: hidden;
@@ -215,7 +227,7 @@
 		}
 	}
 	@media only screen and (min-width: $friends-not-food-breakpoint) {
-		.dc-friends-not-food {
+		#{$friends-not-food-selector} {
 			max-width: $friends-not-food-max-width;
 			.dc-friends-not-food-row .dc-friends-not-food-column {
 				width: 50%;

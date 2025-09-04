@@ -12,6 +12,7 @@
 
 	// Configuration
 
+	$velociraptor-pack-selector: '.dc-velociraptor-pack'; // selector of main wrapper element
 	$velociraptor-pack-breakpoint: 768px; // breakpoint for desktop styles
 	$velociraptor-pack-max-width: 700px; // max width
 	$velociraptor-pack-content-height: 500px; // max-height of content
@@ -29,7 +30,7 @@
 
 	// Style block	
 
-	.dc-velociraptor-pack {
+	#{$velociraptor-pack-selector} {
 		position: relative;
 		max-width: 100%;
 		width: auto;
@@ -145,7 +146,7 @@
 		}
 	}
 	@media only screen and (min-width: $velociraptor-pack-breakpoint) {
-		.dc-velociraptor-pack {
+		#{$velociraptor-pack-selector} {
 			max-width: $velociraptor-pack-max-width;
 			.dc-velociraptor-pack-container {
 				.dc-velociraptor-pack-content {

@@ -18,6 +18,7 @@
 
 	// Configuration
 
+	$dreaming-of-snow-selector: '.dc-dreaming-of-snow'; // selector of main wrapper element
 	$dreaming-of-snow-breakpoint-01: 541px; // breakpoint for tablet styles
 	$dreaming-of-snow-breakpoint-02: 768px; // breakpoint for desktop styles
 	$dreaming-of-snow-max-width: 768px; // max width
@@ -35,7 +36,7 @@
 
 	// Style block
 
-	.dc-dreaming-of-snow {
+	#{$dreaming-of-snow-selector} {
 		width: auto;
 		max-width: 100%;
 		margin: 0;
@@ -187,7 +188,7 @@
 		}
 	}
 	@media only screen and (min-width: $dreaming-of-snow-breakpoint-01) {
-		.dc-dreaming-of-snow {
+		#{$dreaming-of-snow-selector} {
 			.dc-dreaming-of-snow-header {
 				.dc-dreaming-of-snow-row {
 					.dc-dreaming-of-snow-column-title {
@@ -218,7 +219,7 @@
 		}
 	}
 	@media only screen and (min-width: $dreaming-of-snow-breakpoint-02) {
-		.dc-dreaming-of-snow {
+		#{$dreaming-of-snow-selector} {
 			max-width: $dreaming-of-snow-max-width;
 			.dc-dreaming-of-snow-header {
 				.dc-dreaming-of-snow-row {
