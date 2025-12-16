@@ -70,6 +70,10 @@
 	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons {
 		border: 0;
 	}
+	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list {
+		-ms-gap: 0;
+		gap: 0;
+	}
 	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list,
 	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li {
 		margin: 0;

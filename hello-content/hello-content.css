@@ -14,7 +14,7 @@
 	}
 	.dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list {
 		list-style: none;
-		margin: 0 -5px -1px -5px;
+		margin: 0 0 -1px 0;
 		padding: 0;
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
@@ -32,7 +32,7 @@
 		-ms-flex: 0 1 auto;
 		-moz-flex: 0 1 auto;
 		flex: 0 1 auto;
-		padding: 0 5px;
+		padding: 0;
 		margin: 0;
 	}
 	.dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li button {
@@ -81,8 +81,12 @@
 		opacity: 1;
 	}
 	@media only screen and (min-width: 541px) {
+		.dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list {
+			-ms-gap: 10px;
+			gap: 10px;
+		}
 		.dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li {
-			width: 20%;
+			width: calc((100% - 40px) / 5);
 		}
 		.dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li button {
 			-webkit-border-radius: 3px 3px 0 0;

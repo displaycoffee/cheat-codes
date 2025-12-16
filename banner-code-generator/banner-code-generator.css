@@ -24,7 +24,8 @@
 		display: flex;
 		-webkit-align-items: center;
 		align-items: center;
-		margin: 0 -5px -10px -5px;
+		-ms-gap: 10px;
+		gap: 10px;
 	}
 	.dc-banner-code-generator .dc-banner-code-generator-section .dc-banner-code-generator-banners .dc-banner-code-generator-button {
 		min-width: 1px;
@@ -32,8 +33,7 @@
 		-ms-flex: 0 1 auto;
 		-moz-flex: 0 1 auto;
 		flex: 0 1 auto;
-		padding: 0 5px;
-		margin: 0 0 10px 0;
+		padding: 0;
 		background-color: transparent;
 		border: 0;
 	}

@@ -55,14 +55,13 @@
 		flex-flow: row wrap;
 		-webkit-align-items: center;
 		align-items: center;
-		margin: 0 -10px;
+		-ms-gap: 20px;
+		gap: 20px;
 	}
 	.dc-a-promise .dc-a-promise-row:after, .dc-a-promise .dc-a-promise-row .dc-a-promise-column {
 		width: auto;
 		min-height: 1px;
 		min-width: 1px;
-		padding: 0 10px;
-		margin: 0 0 20px 0;
 	} 
 	.dc-a-promise .dc-a-promise-row:after {
 		content: '';

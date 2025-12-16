@@ -51,7 +51,8 @@
 		display: flex;
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
-		margin: 0 -10px -20px -10px;
+		-ms-gap: 20px;
+		gap: 20px;
 	}
 	.dc-dreaming-of-snow .dc-dreaming-of-snow-row .dc-dreaming-of-snow-column {
 		-webkit-flex: 1 1 100%;
@@ -61,8 +62,6 @@
 		width: auto;
 		min-height: 1px;
 		min-width: 1px;
-		padding: 0 10px;
-		margin: 0 0 20px 0;
 	}
 	.dc-dreaming-of-snow .dc-dreaming-of-snow-blue {
 		padding: 10px;
