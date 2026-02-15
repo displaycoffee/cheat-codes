@@ -4,7 +4,7 @@ export const FriendsNotFood = () => {
 			<div className="dc-friends-not-food-container dc-friends-not-food-vertical">
 				<div className="dc-friends-not-food-hover dc-friends-not-food-font">Hover For More</div>
 
-				<div className="dc-friends-not-food-information-01">
+				<div className="dc-friends-not-food-details">
 					<div className="dc-friends-not-food-header">
 						<div className="dc-friends-not-food-name">
 							<h3 className="dc-friends-not-food-font">Imma Shark, Baby</h3>
@@ -87,7 +87,7 @@ export const FriendsNotFood = () => {
 					</div>
 				</div>
 
-				<div className="dc-friends-not-food-information-02 dc-friends-not-food-vertical dc-friends-not-food-absolute">
+				<div className="dc-friends-not-food-more-info dc-friends-not-food-vertical dc-friends-not-food-absolute">
 					<div className="dc-friends-not-food-block">
 						<p>
 							Quagga mussel cat shark is batfish frogfish. . Peppered moray clownfish hawkfish at seahorse hammerhead a funny snake eel.
