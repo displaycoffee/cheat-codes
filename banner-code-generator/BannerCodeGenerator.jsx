@@ -80,10 +80,13 @@ export const BannerCodeGenerator = (props) => {
 
 							<div className="dc-banner-code-generator-banners">
 								{allBanners.map((value, valueIndex) => {
+									const imageAlt = value?.alt ? value.alt : '';
+
 									return value.group == index ? (
 										<button
 											className={`dc-banner-code-generator-button${valueIndex == activeBanner ? ` ${activeClass}` : ``}`}
 											type="button"
+											aria-label={imageAlt ? `${imageAlt} - button` : ``}
 											onClick={() => {
 												// Update banner on click
 												activeBanner = valueIndex;
@@ -91,11 +94,7 @@ export const BannerCodeGenerator = (props) => {
 											}}
 											key={valueIndex}
 										>
-											<img
-												src={value?.src ? value.src : ''}
-												alt={value?.alt ? value.alt : ''}
-												title={value?.title ? value.title : ''}
-											/>
+											<img src={value?.src ? value.src : ''} alt={imageAlt} title={imageAlt} />
 										</button>
 									) : null;
 								})}
