@@ -1,5 +1,13 @@
 export const APromise = () => {
-	const separator = <img src="//display.coffee/assets/images/cheat-codes/a-promise-leaf.png" alt="A Promise - Leaf" title="A Promise - Leaf" />;
+	const separator = (
+		<img
+			src="//display.coffee/assets/images/cheat-codes/a-promise-leaf.png"
+			alt="A Promise - Leaf"
+			title="A Promise - Leaf"
+			width="24"
+			height="12"
+		/>
+	);
 
 	return (
 		<div className="dc-a-promise displaycoffee">
@@ -10,6 +18,8 @@ export const APromise = () => {
 							src="//display.coffee/assets/images/cheat-codes/a-promise-avatar.jpg"
 							alt="A Promise - Avatar"
 							title="A Promise - Avatar"
+							width="444"
+							height="273"
 						/>
 					</div>
 				</div>
