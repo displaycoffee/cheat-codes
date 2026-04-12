@@ -15,8 +15,8 @@ const dcHelloContent = {
 		const currentContents = contents[i];
 
 		// Check matches and active class
-		const hasMatch = currentButton && currentContents ? true : false;
-		const hasClass = currentButton && currentButton.classList.contains(dcHelloContent.activeClass) ? true : false;
+		const hasMatch = currentButton && currentContents;
+		const hasClass = currentButton && currentButton.classList.contains(dcHelloContent.activeClass);
 
 		// If there is a match and if the current button doesn't have active class, proceed
 		if (hasMatch && !hasClass) {

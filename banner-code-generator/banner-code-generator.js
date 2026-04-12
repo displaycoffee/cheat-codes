@@ -28,8 +28,8 @@ const dcBannerCodeGenerator = {
 		const currentImage = selector.nodeName == 'BUTTON' ? selector.querySelector('img') : selector;
 
 		// Check matches and active class
-		const hasMatch = currentButton && currentImage ? true : false;
-		const hasClass = currentButton && currentButton.classList.contains(dcBannerCodeGenerator.activeClass) ? true : false;
+		const hasMatch = currentButton && currentImage;
+		const hasClass = currentButton && currentButton.classList.contains(dcBannerCodeGenerator.activeClass);
 
 		// If there is a match and if the current button doesn't have active class, proceed
 		if (hasMatch && !hasClass) {
