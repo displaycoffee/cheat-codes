@@ -1,0 +1,73 @@
+/*  FRAMER MOTION
+    -------------------------------------------------------------------------- */
+
+	.dc-framer-motion {
+		padding: 20px;
+		background-color: #2a1c15;
+	}
+	.dc-framer-motion, .dc-framer-motion * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+	}
+	.dc-framer-motion .dc-framer-motion-row {
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: -moz-flex;
+		display: flex;
+		gap: 20px;
+		margin: 0 0 20px 0;
+	}
+	.dc-framer-motion .dc-framer-motion-row .dc-framer-motion-column {
+		min-width: 1px;
+		-webkit-flex: 1 1 100%;
+		-ms-flex: 1 1 100%;
+		-moz-flex: 1 1 100%;
+		flex: 1 1 100%;
+	}
+	.dc-framer-motion .dc-framer-motion-row .dc-framer-motion-card {
+		padding: 20px;
+		background-color: #523526;
+		border-radius: 8px;
+		will-change: transform;
+	}
+	.dc-framer-motion .dc-framer-motion-row .dc-framer-motion-card h4 {
+		color: #ffffff;
+		margin: 0 0 10px 0;
+		font-size: 16px;
+		font-weight: 700;
+		letter-spacing: 0;
+		text-shadow: none;
+		text-transform: none;
+		line-height: 1.3;
+	}
+	.dc-framer-motion .dc-framer-motion-row .dc-framer-motion-card p {
+		color: #dac0b3;
+		margin: 0;
+		line-height: 1.5;
+	}
+	.dc-framer-motion .dc-framer-motion-button {
+		display: block;
+		margin: 0 auto;
+		padding: 10px 20px;
+		background-color: #9c684c;
+		color: #ffffff;
+		border: 0;
+		border-radius: 8px;
+		cursor: pointer;
+	}
+	.dc-framer-motion .dc-framer-motion-button:hover {
+		background-color: #704a37;
+	}
+	@media only screen and (min-width: 600px) {
+		.dc-framer-motion .dc-framer-motion-row .dc-framer-motion-column {
+			-webkit-flex: 1 1 0%;
+			-ms-flex: 1 1 0%;
+			-moz-flex: 1 1 0%;
+			flex: 1 1 0%;
+		}
+	}
