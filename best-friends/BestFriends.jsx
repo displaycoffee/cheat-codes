@@ -1,4 +1,4 @@
-/* Local components */
+/* Components */
 import { HelloContent } from '../hello-content/HelloContent';
 
 export const BestFriends = () => {

@@ -1,4 +1,4 @@
-/* React */
+/* Packages */
 import React, { useState } from 'react';
 
 export const HelloContent = (props) => {

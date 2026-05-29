@@ -1,4 +1,4 @@
-/* React */
+/* Packages */
 import { useState, useEffect, useRef } from 'react';
 
 export const BannerCodeGenerator = (props) => {

@@ -1,4 +1,4 @@
-/* React */
+/* Packages */
 import { useState } from 'react';
 import { flushSync } from 'react-dom';
 
