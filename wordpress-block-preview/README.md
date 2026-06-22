@@ -10,7 +10,7 @@ Below is a list of all the blocks that I've built samples of. I've also noted wh
 | ❌   | Ignoring |
 | ❓   | Pending  |
 
-To use, click the three dots in the upper right corner of the editor, switch to "Code editor", and copy and paste the snippet. You can then switch back to the "Visual editor" as needed.
+To use, click the three dots in the upper right corner of the editor, switch to "Code editor", and [copy and paste the snippet](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview.html). You can then switch back to the "Visual editor" as needed.
 
 **Related links:**
 
