@@ -10,7 +10,12 @@ Below is a list of all the blocks that I've built samples of. I've also noted wh
 | ❌   | Ignoring |
 | ❓   | Pending  |
 
-To use, click the three dots in the upper right corner of the editor, switch to "Code editor", and [copy and paste the snippet](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview.html). You can then switch back to the "Visual editor" as needed.
+To use, click the three vertical dots in the upper right corner of the editor, switch to "Code editor", and [copy and paste the snippet](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview.html). You can then switch back to the "Visual editor" as needed.
+
+**Credits:**
+
+- [Unsplash](https://unsplash.com/s/photos/random) for free images
+- [Free Music Archive](https://freemusicarchive.org) for the [audio clip](https://freemusicarchive.org/music/lightning-traveler/origin-1/eclipsemp3-1)
 
 **Related links:**
 
