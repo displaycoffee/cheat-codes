@@ -344,6 +344,22 @@
 </details>
 <!-- /wp:details -->
 
+<!-- wp:details {"showContent":true} -->
+<details class="wp-block-details" open>
+	<summary>Show / hide content</summary>
+	<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+	<p>
+		Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et dignissim cursus, justo enim sollicitudin risus, a posuere
+		lectus enim a odio. Mauris id varius orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis
+		ultricies, nisi suscipit hendrerit mollis, urna mi convallis nisi, at mattis metus dui eu eros. Integer felis ipsum, ornare id molestie sit
+		amet, tincidunt quis felis. Mauris nulla massa, hendrerit a fermentum sit amet, pellentesque id justo. Praesent viverra a ex id viverra. Nam
+		sit amet enim dictum, eleifend ipsum at, tincidunt dui. Nam tempus dolor vitae urna scelerisque tempus. Aliquam a nulla vitae augue sagittis
+		venenatis. Vivamus pulvinar diam non consectetur feugiat. Nunc imperdiet tincidunt porttitor.
+	</p>
+	<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
 <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|color-01"}}},"css":"margin: 20px 0"},"backgroundColor":"vivid-cyan-blue","textColor":"color-01"} -->
 <h3 class="wp-block-heading has-custom-css has-color-01-color has-vivid-cyan-blue-background-color has-text-color has-background has-link-color">
 	Math
@@ -388,6 +404,32 @@ Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et di
 
 <!-- wp:pullquote -->
 <figure class="wp-block-pullquote">
+	<blockquote>
+		<p>
+			Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et dignissim cursus, justo enim sollicitudin risus, a posuere
+			lectus enim a odio. Mauris id varius orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			Duis ultricies, nisi suscipit hendrerit mollis, urna mi convallis nisi, at mattis metus dui eu eros. Integer felis ipsum, ornare id
+			molestie sit amet, tincidunt quis felis. Mauris nulla massa, hendrerit a fermentum sit amet, pellentesque id justo. Praesent viverra a ex
+			id viverra. Nam sit amet enim dictum, eleifend ipsum at, tincidunt dui. Nam tempus dolor vitae urna scelerisque tempus. Aliquam a nulla
+			vitae augue sagittis venenatis. Vivamus pulvinar diam non consectetur feugiat. Nunc imperdiet tincidunt porttitor.
+		</p>
+		<cite>Pullquote example from Lorem Ipsum</cite>
+	</blockquote>
+</figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:pullquote {"style":{"border":{"radius":{"topLeft":"96px","topRight":"96px","bottomLeft":"96px","bottomRight":"96px"},"style":"dotted","width":"30px"}},"borderColor":"vivid-red"} -->
+<figure
+	class="wp-block-pullquote has-border-color has-vivid-red-border-color"
+	style="
+		border-style: dotted;
+		border-width: 30px;
+		border-top-left-radius: 96px;
+		border-top-right-radius: 96px;
+		border-bottom-left-radius: 96px;
+		border-bottom-right-radius: 96px;
+	"
+>
 	<blockquote>
 		<p>
 			Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et dignissim cursus, justo enim sollicitudin risus, a posuere
@@ -976,11 +1018,46 @@ Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et di
 </h3>
 <!-- /wp:heading -->
 
-<!-- wp:file {"id":478,"href":"https://display.coffee/assets/documents/adria-murphy-resume.pdf"} -->
+<!-- wp:file {"id":478,"href":"https://display.coffee/assets/documents/adria-murphy-resume.pdf","showDownloadButton":false,"displayPreview":false} -->
 <div class="wp-block-file">
-	<a
-		id="wp-block-file--media-114d40e9-bdde-4403-9b25-83a176fd7182"
-		href="https://memoria.ddev.site/wp-content/uploads/2026/06/cropped-a9d4907d-32b2-3dda-a4c7-8a64a62d3dec.jpg"
+	<a id="wp-block-file--media-114d40e9-bdde-4403-9b25-83a176fd7182" href="https://display.coffee/assets/documents/adria-murphy-resume.pdf"
+		>Adria Murphy Resume</a
+	>
+</div>
+<!-- /wp:file -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:file {"id":478,"href":"https://display.coffee/assets/documents/adria-murphy-resume.pdf","displayPreview":false} -->
+<div class="wp-block-file">
+	<a id="wp-block-file--media-114d40e9-bdde-4403-9b25-83a176fd7182" href="https://display.coffee/assets/documents/adria-murphy-resume.pdf"
+		>Adria Murphy Resume</a
+	><a
+		href="https://display.coffee/assets/documents/adria-murphy-resume.pdf"
+		class="wp-block-file__button wp-element-button"
+		download
+		aria-describedby="wp-block-file--media-114d40e9-bdde-4403-9b25-83a176fd7182"
+		>Download</a
+	>
+</div>
+<!-- /wp:file -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:file {"id":478,"href":"https://display.coffee/assets/documents/adria-murphy-resume.pdf","displayPreview":true} -->
+<div class="wp-block-file">
+	<object
+		class="wp-block-file__embed"
+		data="https://display.coffee/assets/documents/adria-murphy-resume.pdf"
+		type="application/pdf"
+		style="width: 100%; height: 600px"
+		aria-label="Adria Murphy Resume"
+	></object
+	><a id="wp-block-file--media-114d40e9-bdde-4403-9b25-83a176fd7182" href="https://display.coffee/assets/documents/adria-murphy-resume.pdf"
 		>Adria Murphy Resume</a
 	><a
 		href="https://display.coffee/assets/documents/adria-murphy-resume.pdf"
@@ -1034,6 +1111,10 @@ Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et di
 </div>
 <!-- /wp:media-text -->
 
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
 <!-- wp:media-text {"mediaPosition":"right","mediaId":438,"mediaLink":"https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80\u0026w=687\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","linkDestination":"none","mediaType":"image","imageFill":false} -->
 <div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile">
 	<div class="wp-block-media-text__content">
@@ -1069,8 +1150,12 @@ Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et di
 </div>
 <!-- /wp:media-text -->
 
-<!-- wp:media-text {"mediaId":438,"mediaLink":"https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80\u0026w=687\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","linkDestination":"none","mediaType":"image","verticalAlignment":"top","imageFill":false} -->
-<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top">
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:media-text {"mediaId":438,"mediaLink":"https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80\u0026w=687\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","linkDestination":"none","mediaType":"image","mediaWidth":27,"verticalAlignment":"top","imageFill":false} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top" style="grid-template-columns: 27% auto">
 	<figure class="wp-block-media-text__media">
 		<img
 			src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&amp;w=687&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -1104,6 +1189,10 @@ Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et di
 </div>
 <!-- /wp:media-text -->
 
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
 <!-- wp:media-text {"mediaId":438,"mediaLink":"https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80\u0026w=687\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","linkDestination":"none","mediaType":"image","verticalAlignment":"bottom","imageFill":false} -->
 <div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-bottom">
 	<figure class="wp-block-media-text__media">
@@ -1111,6 +1200,46 @@ Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et di
 			src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&amp;w=687&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 			alt=""
 			class="wp-image-438 size-full"
+		/>
+	</figure>
+	<div class="wp-block-media-text__content">
+		<!-- wp:paragraph {"placeholder":"Content…"} -->
+		<p>
+			Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et dignissim cursus, justo enim sollicitudin risus, a posuere
+			lectus enim a odio. Mauris id varius orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			Duis ultricies, nisi suscipit hendrerit mollis, urna mi convallis nisi, at mattis metus dui eu eros. Integer felis ipsum, ornare id
+			molestie sit amet, tincidunt quis felis. Mauris nulla massa, hendrerit a fermentum sit amet, pellentesque id justo. Praesent viverra a ex
+			id viverra. Nam sit amet enim dictum, eleifend ipsum at, tincidunt dui. Nam tempus dolor vitae urna scelerisque tempus. Aliquam a nulla
+			vitae augue sagittis venenatis. Vivamus pulvinar diam non consectetur feugiat. Nunc imperdiet tincidunt porttitor.
+		</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:paragraph -->
+		<p>
+			Pellentesque vel posuere lectus, ultricies porta elit. Fusce blandit, eros et dignissim cursus, justo enim sollicitudin risus, a posuere
+			lectus enim a odio. Mauris id varius orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			Duis ultricies, nisi suscipit hendrerit mollis, urna mi convallis nisi, at mattis metus dui eu eros. Integer felis ipsum, ornare id
+			molestie sit amet, tincidunt quis felis. Mauris nulla massa, hendrerit a fermentum sit amet, pellentesque id justo. Praesent viverra a ex
+			id viverra. Nam sit amet enim dictum, eleifend ipsum at, tincidunt dui. Nam tempus dolor vitae urna scelerisque tempus. Aliquam a nulla
+			vitae augue sagittis venenatis. Vivamus pulvinar diam non consectetur feugiat. Nunc imperdiet tincidunt porttitor.
+		</p>
+		<!-- /wp:paragraph -->
+	</div>
+</div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:media-text {"mediaId":438,"mediaLink":"https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80\u0026w=687\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","linkDestination":"none","mediaType":"image","verticalAlignment":"center","imageFill":true} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center is-image-fill-element">
+	<figure class="wp-block-media-text__media">
+		<img
+			src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&amp;w=687&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			alt=""
+			class="wp-image-438 size-full"
+			style="object-position: 50% 50%"
 		/>
 	</figure>
 	<div class="wp-block-media-text__content">
