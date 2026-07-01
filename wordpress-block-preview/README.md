@@ -52,24 +52,24 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 
 ### Design blocks
 
-❓ Accordion<br />
-❓ Buttons<br />
-❓ Columns<br />
-❓ Group<br />
-❓ Row<br />
-❓ Stack<br />
-❓ Grid<br />
-❓ More<br />
-❓ Page break<br />
-❓ Separator<br />
-❓ Spacer
+✅ Accordion<br />
+✅ Buttons<br />
+✅ Columns<br />
+✅ Group<br />
+✅ Row<br />
+✅ Stack<br />
+✅ Grid<br />
+✅ More<br />
+✅ Page break<br />
+✅ Separator<br />
+✅ Spacer
 
 ### Widgets blocks
 
-❓ Archives<br />
-❓ Calendar<br />
-❓ Terms list<br />
-❓ Categories list<br />
+✅ Archives<br />
+✅ Calendar<br />
+✅ Terms list (tags list)<br />
+✅ Categories list<br />
 ❓ Custom HTML<br />
 ❓ Latest comments<br />
 ❓ Latest posts<br />
