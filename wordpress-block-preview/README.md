@@ -74,11 +74,11 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 ✅ Latest comments<br />
 ✅ Latest posts<br />
 ✅ Page list<br />
-❓ RSS<br />
-❓ Search<br />
-❓ Shortcode<br />
-❓ Social icons<br />
-❓ Tag cloud
+✅ RSS<br />
+✅ Search<br />
+✅ Shortcode<br />
+✅ Social icons<br />
+✅ Tag cloud
 
 ### Theme blocks
 
