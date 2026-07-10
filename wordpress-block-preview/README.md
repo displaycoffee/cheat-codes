@@ -70,10 +70,10 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 ✅ Calendar<br />
 ✅ Terms list (tags list)<br />
 ✅ Categories list<br />
-❓ Custom HTML<br />
-❓ Latest comments<br />
-❓ Latest posts<br />
-❓ Page list<br />
+✅ Custom HTML<br />
+✅ Latest comments<br />
+✅ Latest posts<br />
+✅ Page list<br />
 ❓ RSS<br />
 ❓ Search<br />
 ❓ Shortcode<br />
