@@ -82,13 +82,13 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 
 ### Theme blocks
 
-❓ Navigation<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Custom link<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Home link<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Submenu<br />
-❓ Site logo<br />
-❓ Site title<br />
-❓ Site tagline<br />
+✅ Navigation<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Custom link<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Home link<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Submenu<br />
+✅ Site logo<br />
+✅ Site title<br />
+✅ Site tagline<br />
 ❓ Query loop<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Post template<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Post content<br />
@@ -103,6 +103,7 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 ❓ Comments count<br />
 ❓ Comments link<br />
 ❓ Date<br />
+❓ Post date<br />
 ❓ Modified date<br />
 ❓ Categories<br />
 ❓ Tags<br />
