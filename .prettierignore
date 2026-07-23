@@ -2,3 +2,10 @@
 *.css
 .eslintrc
 wordpress-block-preview/wordpress-block-preview.html
+wordpress-block-preview/wordpress-block-preview-all.html
+wordpress-block-preview/wordpress-block-preview-design.html
+wordpress-block-preview/wordpress-block-preview-embed.html
+wordpress-block-preview/wordpress-block-preview-media.html
+wordpress-block-preview/wordpress-block-preview-text.html
+wordpress-block-preview/wordpress-block-preview-theme.html
+wordpress-block-preview/wordpress-block-preview-widgets.html

@@ -1,8 +1,8 @@
 ﻿# WordPress Block Preview
 
-This code snippet contains a preview of _almost all_ the WordPress Gutenberg blocks. I was wanting an all encompassing list of the blocks so that when building themes locally, I can test how the blocks look on a page or post. There are some snippets out there already, but they were a older (and possibly outdated).
+This folder contains a preview of _almost all_ the WordPress Gutenberg blocks. I was wanting an all encompassing list of the blocks so that when building themes locally, I can test how the blocks look on a page or post. There are some snippets out there already, but they were a older (and possibly outdated).
 
-Below is a list of all the blocks that I've built samples of. I've also noted which ones are complete or which ones I'm ignoring. Certain blocks appear more than once (like paragraph) because I've done variations of that block.
+To use, click the three vertical dots in the upper right corner of the WordPress editor, switch to "Code editor", and copy and paste one of the snippets. I've broken out the snippets into type of blocks, but if needed, all blocks can be found [here](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-all.html). I've noted which blocks are complete or which ones I'm ignoring.
 
 | Icon | Status   |
 | ---- | -------- |
@@ -10,7 +10,7 @@ Below is a list of all the blocks that I've built samples of. I've also noted wh
 | ❌   | Ignoring |
 | ❓   | Pending  |
 
-To use, click the three vertical dots in the upper right corner of the editor, switch to "Code editor", and [copy and paste the snippet](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview.html). You can then switch back to the "Visual editor" as needed.
+Within the code, certain blocks appear more than once (like paragraph) because I've done variations of that block. Additionally, it's worth mentioning that you'll need to have dummy content for certain blocks to show anything (like "Latest posts" or "Comments link"). To do this, I used [FakerPress plugin](https://wordpress.org/plugins/fakerpress).
 
 **Credits:**
 
@@ -24,7 +24,7 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 
 **Note:** if this helps you in any way, please feel free to "star" this repo or give me a follow. If not, no big deal.
 
-### Text
+### Text - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-text.html)
 
 ✅ Paragraph<br />
 ✅ Heading<br />
@@ -39,7 +39,7 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 ✅ Poetry<br />
 ❌ Classic
 
-### Media blocks
+### Media blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-media.html)
 
 ✅ Image<br />
 ✅ Gallery<br />
@@ -50,7 +50,7 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 ✅ Video<br />
 ✅ Icon
 
-### Design blocks
+### Design blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-design.html)
 
 ✅ Accordion<br />
 ✅ Buttons<br />
@@ -64,7 +64,7 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 ✅ Separator<br />
 ✅ Spacer
 
-### Widgets blocks
+### Widgets blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-widgets.html)
 
 ✅ Archives<br />
 ✅ Calendar<br />
@@ -80,7 +80,7 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 ✅ Social icons<br />
 ✅ Tag cloud
 
-### Theme blocks
+### Theme blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-theme.html)
 
 ✅ Navigation<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Custom link<br />
@@ -89,22 +89,22 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 ✅ Site logo<br />
 ✅ Site title<br />
 ✅ Site tagline<br />
-❓ Query loop<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Post template<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Post content<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Pagination<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Query total<br />
-❓ Avatar<br />
-❓ Title<br />
-❓ Excerpt<br />
-❓ Featured image<br />
+✅ Query loop<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Post template<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Post content<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Pagination<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Query total<br />
+✅ Avatar<br />
+✅ Title<br />
+✅ Excerpt<br />
+✅ Featured image<br />
 ❓ Author<br />
-❓ Author name<br />
-❓ Comments count<br />
-❓ Comments link<br />
-❓ Date<br />
-❓ Post date<br />
-❓ Modified date<br />
+✅ Author name<br />
+✅ Comments count<br />
+✅ Comments link<br />
+✅ Date<br />
+✅ Post date<br />
+✅ Modified date<br />
 ❓ Categories<br />
 ❓ Tags<br />
 ❓ Previous post<br />
@@ -136,7 +136,7 @@ To use, click the three vertical dots in the upper right corner of the editor, s
 ❓ Post navigation link<br />
 ❓ Breadcrumbs
 
-### Embed Blocks
+### Embed Blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-embed.html)
 
 ❓ Embed<br />
 ❓ X<br />
