@@ -140,10 +140,10 @@ Within the code, certain blocks appear more than once (like paragraph) because I
 
 ❓ Embed<br />
 ❓ X<br />
-❓ YouTube<br />
+✅ YouTube<br />
 ❓ WordPress<br />
-❓ SoundCloud<br />
-❓ Spotify<br />
+✅ SoundCloud<br />
+✅ Spotify<br />
 ❓ Flickr<br />
 ❓ Vimeo<br />
 ❓ Animoto<br />
@@ -162,11 +162,11 @@ Within the code, certain blocks appear more than once (like paragraph) because I
 ❓ Slideshare<br />
 ❓ SmugMug<br />
 ❓ Speaker Deck<br />
-❓ TikTok<br />
+✅ TikTok<br />
 ❓ TED<br />
-❓ Tumblr<br />
+✅ Tumblr<br />
 ❓ VideoPress<br />
-❓ WordPress.tv<br />
+✅ WordPress.tv (VideoPress)<br />
 ❓ Amazon Kindle<br />
 ❓ Pinterest<br />
 ❓ Wolfram<br />
