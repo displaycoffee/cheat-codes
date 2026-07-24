@@ -1,8 +1,8 @@
 ﻿# WordPress Block Preview
 
-This folder contains a preview of _almost all_ the WordPress Gutenberg blocks. I was wanting an all encompassing list of the blocks so that when building themes locally, I can test how the blocks look on a page or post. There are some snippets out there already, but they were a older (and possibly outdated).
+This folder contains a preview of _almost all_ the WordPress Gutenberg blocks. I was wanting an all encompassing list of the blocks so that when building themes locally, I can test how the blocks look on a page or post. There are some snippets out there already, but they were older (and possibly outdated).
 
-To use, click the three vertical dots in the upper right corner of the WordPress editor, switch to "Code editor", and copy and paste one of the snippets. I've broken out the snippets into type of blocks, but if needed, all blocks can be found [here](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-all.html). I've noted which blocks are complete or which ones I'm ignoring.
+To use, click the three vertical dots in the upper right corner of the WordPress editor, switch to "Code editor", and copy and paste one of the snippets. I've broken out the snippets into block type, but if needed, all blocks can be found [here](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-all.html). I've noted which blocks are complete or which ones I'm ignoring.
 
 | Icon | Status   |
 | ---- | -------- |
@@ -37,7 +37,7 @@ Within the code, certain blocks appear more than once (like paragraph) because I
 ✅ Pullquote<br />
 ✅ Table<br />
 ✅ Poetry<br />
-❌ Classic
+❌ Classic - Not using in this preview.
 
 ### Media blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-media.html)
 
@@ -98,43 +98,43 @@ Within the code, certain blocks appear more than once (like paragraph) because I
 ✅ Title<br />
 ✅ Excerpt<br />
 ✅ Featured image<br />
-❓ Author<br />
+❌ Author - Although it's still on the list of blocks, it's been [deprecated](https://github.com/WordPress/gutenberg/issues/53427).<br />
 ✅ Author name<br />
 ✅ Comments count<br />
 ✅ Comments link<br />
 ✅ Date<br />
 ✅ Post date<br />
 ✅ Modified date<br />
-❓ Categories<br />
-❓ Tags<br />
-❓ Previous post<br />
-❓ Next post<br />
-❓ Time to read<br />
-❓ Word count<br />
-❓ Read more<br />
-❓ Comments<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Comments title<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Comment template<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Comment author name<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Comment date<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Comment content<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Comment reply link<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Comment edit link<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❓ Comment pagination<br />
-❓ Comments form<br />
-❓ Login/out<br />
-❓ Term count<br />
-❓ Term description<br />
-❓ Term name<br />
-❓ Terms query<br />
-❓ Archive title<br />
-❓ Search results title<br />
-❓ Post types label<br />
-❓ Author biography<br />
-❓ Template part<br />
-❓ Query title<br />
-❓ Post navigation link<br />
-❓ Breadcrumbs
+✅ Categories<br />
+✅ Tags<br />
+✅ Previous post<br />
+✅ Next post<br />
+✅ Time to read<br />
+✅ Word count<br />
+✅ Read more<br />
+✅ Comments<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comments title<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment template<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment author name<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment date<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment content<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment reply link<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment edit link<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment pagination<br />
+✅ Comments form<br />
+✅ Login/out<br />
+✅ Term count - This block works only in the archive pages and will not be visible on other pages of the website.<br />
+✅ Term description - This block works only in the archive pages and will not be visible on other pages of the website.<br />
+✅ Term name - This block works only in the archive pages and will not be visible on other pages of the website.<br />
+✅ Terms query<br />
+✅ Archive title - This block works only in the archive pages and will not be visible on other pages of the website.<br />
+✅ Search results title - This block works only in the search results and will not be visible on other pages of the website.<br />
+✅ Post type label<br />
+✅ Author biography<br />
+❌ Template part - This is theme specific.<br />
+❌ Query title - This is made up of two blocks: "Archive title" and "Search results title".<br />
+❌ Post navigation link - There's no block for this. It's a combination of "Previous post" and "Next post".<br />
+✅ Breadcrumbs
 
 ### Embed Blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-embed.html)
 
