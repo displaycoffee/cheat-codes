@@ -24,150 +24,174 @@ Within the code, certain blocks appear more than once (like paragraph) because I
 
 **Note:** if this helps you in any way, please feel free to "star" this repo or give me a follow. If not, no big deal.
 
-### Text - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-text.html)
+## Design
 
-✅ Paragraph<br />
-✅ Heading<br />
-✅ List<br />
-✅ Quote<br />
-✅ Code<br />
-✅ Details<br />
-✅ Math<br />
-✅ Preformatted<br />
-✅ Pullquote<br />
-✅ Table<br />
-✅ Poetry<br />
-❌ Classic - Not using in this preview.
+[Raw code snippet 📄](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-design.html)
 
-### Media blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-media.html)
+| Status | Name       | Comment |
+| ------ | ---------- | ------- |
+| ✅     | Accordion  |         |
+| ✅     | Buttons    |         |
+| ✅     | Columns    |         |
+| ✅     | Grid       |         |
+| ✅     | Group      |         |
+| ✅     | More       |         |
+| ✅     | Page break |         |
+| ✅     | Row        |         |
+| ✅     | Separator  |         |
+| ✅     | Spacer     |         |
+| ✅     | Stack      |         |
 
-✅ Image<br />
-✅ Gallery<br />
-✅ Audio<br />
-✅ Cover<br />
-✅ File<br />
-✅ Media & text<br />
-✅ Video<br />
-✅ Icon
+## Embed
 
-### Design blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-design.html)
+[Raw code snippet 📄](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-embed.html)
 
-✅ Accordion<br />
-✅ Buttons<br />
-✅ Columns<br />
-✅ Group<br />
-✅ Row<br />
-✅ Stack<br />
-✅ Grid<br />
-✅ More<br />
-✅ Page break<br />
-✅ Separator<br />
-✅ Spacer
+| Status | Name          | Comment                                                                                                                        |
+| ------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| ❌     | Amazon Kindle | Converts to general "Embed" block after pasting url. [Open issue #68714](https://github.com/WordPress/gutenberg/issues/68714). |
+| ❌     | Animoto       | Skipping. No public share link available to test with.                                                                         |
+| ❌     | Bluesky       | Converts to general "Embed" block after pasting url.                                                                           |
+| ✅     | CloudUp       | Example taken from WordPress documentation on this block.                                                                      |
+| ✅     | Crowdsignal   | Example taken from WordPress documentation on this block.                                                                      |
+| ❌     | Dailymotion   | The embed works, but the video autoplays with sound, so not adding this.                                                       |
+| ✅     | Embed         |                                                                                                                                |
+| ✅     | Flickr        |                                                                                                                                |
+| ✅     | Imgur         |                                                                                                                                |
+| ✅     | Issuu         |                                                                                                                                |
+| ❌     | Kickstarter   | Fails to embed. Kickstarter's bot protection blocks WordPress's server-side oEmbed fetch.                                      |
+| ✅     | Mixcloud      |                                                                                                                                |
+| ✅     | Pinterest     | Profile/board embeds work. Individual pin embeds failed to render despite following the documented steps.                      |
+| ✅     | Pocket Casts  |                                                                                                                                |
+| ✅     | Reddit        |                                                                                                                                |
+| ❌     | ReverbNation  | Converts to general "Embed" block after pasting url.                                                                           |
+| ❌     | Screencast    | Block variation removed from Gutenberg core. Legacy screencast.com hosting service it targeted was retired ~2023.              |
+| ✅     | Scribd        |                                                                                                                                |
+| ❌     | SlideShare    | Block variation removed from Gutenberg core. Docs are outdated. SlideShare content now lives under Scribd.                     |
+| ✅     | SmugMug       | This should work, but embedded content from SmugMug won't show in the editor.                                                  |
+| ✅     | SoundCloud    |                                                                                                                                |
+| ✅     | Speaker Deck  |                                                                                                                                |
+| ✅     | Spotify       |                                                                                                                                |
+| ✅     | TED           |                                                                                                                                |
+| ✅     | TikTok        |                                                                                                                                |
+| ✅     | Tumblr        |                                                                                                                                |
+| ✅     | VideoPress    |                                                                                                                                |
+| ✅     | Vimeo         |                                                                                                                                |
+| ✅     | Wolfram       |                                                                                                                                |
+| ❌     | WordPress     | Converts to general "Embed" block after pasting url.                                                                           |
+| ❌     | WordPress.tv  | Uses "VideoPress" embed block, so preview is the same as that block.                                                           |
+| ❌     | X             | Converts to general "Embed" block after pasting url.                                                                           |
+| ✅     | YouTube       |                                                                                                                                |
 
-### Widgets blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-widgets.html)
+## Media
 
-✅ Archives<br />
-✅ Calendar<br />
-✅ Terms list (tags list)<br />
-✅ Categories list<br />
-✅ Custom HTML<br />
-✅ Latest comments<br />
-✅ Latest posts<br />
-✅ Page list<br />
-✅ RSS<br />
-✅ Search<br />
-✅ Shortcode<br />
-✅ Social icons<br />
-✅ Tag cloud
+[Raw code snippet 📄](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-media.html)
 
-### Theme blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-theme.html)
+| Status | Name         | Comment |
+| ------ | ------------ | ------- |
+| ✅     | Audio        |         |
+| ✅     | Cover        |         |
+| ✅     | File         |         |
+| ✅     | Gallery      |         |
+| ✅     | Icon         |         |
+| ✅     | Image        |         |
+| ✅     | Media & text |         |
+| ✅     | Video        |         |
 
-✅ Navigation<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Custom link<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Home link<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Submenu<br />
-✅ Site logo<br />
-✅ Site title<br />
-✅ Site tagline<br />
-✅ Query loop<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Post template<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Post content<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Pagination<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Query total<br />
-✅ Avatar<br />
-✅ Title<br />
-✅ Excerpt<br />
-✅ Featured image<br />
-❌ Author - Although it's still on the list of blocks, it's been [deprecated](https://github.com/WordPress/gutenberg/issues/53427).<br />
-✅ Author name<br />
-✅ Comments count<br />
-✅ Comments link<br />
-✅ Date<br />
-✅ Post date<br />
-✅ Modified date<br />
-✅ Categories<br />
-✅ Tags<br />
-✅ Previous post<br />
-✅ Next post<br />
-✅ Time to read<br />
-✅ Word count<br />
-✅ Read more<br />
-✅ Comments<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comments title<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment template<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment author name<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment date<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment content<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment reply link<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment edit link<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Comment pagination<br />
-✅ Comments form<br />
-✅ Login/out<br />
-✅ Term count - This block works only in the archive pages and will not be visible on other pages of the website.<br />
-✅ Term description - This block works only in the archive pages and will not be visible on other pages of the website.<br />
-✅ Term name - This block works only in the archive pages and will not be visible on other pages of the website.<br />
-✅ Terms query<br />
-✅ Archive title - This block works only in the archive pages and will not be visible on other pages of the website.<br />
-✅ Search results title - This block works only in the search results and will not be visible on other pages of the website.<br />
-✅ Post type label<br />
-✅ Author biography<br />
-❌ Template part - This is theme specific.<br />
-❌ Query title - This is made up of two blocks: "Archive title" and "Search results title".<br />
-❌ Post navigation link - There's no block for this. It's a combination of "Previous post" and "Next post".<br />
-✅ Breadcrumbs
+## Text
 
-### Embed Blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-embed.html)
+[Raw code snippet 📄](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-text.html)
 
-❓ Embed<br />
-❌ X - Converts to general "Embed" block after pasting url.<br />
-✅ YouTube<br />
-❌ WordPress - Converts to general "Embed" block after pasting url.<br />
-✅ SoundCloud<br />
-✅ Spotify<br />
-✅ Flickr<br />
-✅ Vimeo<br />
-❌ Animoto - Skipping. No public share link available to test with.<br />
-✅ CloudUp - Example taken from WordPress documentation on this block.<br />
-✅ Crowdsignal - Example taken from WordPress documentation on this block.<br />
-✅ Dailymotion<br />
-✅ Imgur<br />
-✅ Issuu<br />
-❌ Kickstarter - Fails to embed. Kickstarter's bot protection blocks WordPress's server-side oEmbed fetch.<br />
-✅ Mixcloud<br />
-✅ Pocket Casts<br />
-✅ Reddit<br />
-❌ ReverbNation - Converts to general "Embed" block after pasting url.<br />
-❌ Screencast - Block variation removed from Gutenberg core; the legacy screencast.com hosting service it targeted was retired ~2023.<br />
-✅ Scribd<br />
-❌ SlideShare - Block variation removed from Gutenberg core; docs are outdated. SlideShare content now lives under Scribd.<br />
-✅ SmugMug - This should work, but embedded content from SmugMug won't show in the editor.<br />
-✅ Speaker Deck<br />
-✅ TikTok<br />
-✅ TED<br />
-✅ Tumblr<br />
-✅ VideoPress<br />
-✅ WordPress.tv - Uses VideoPress embed block.<br />
-❌ Amazon Kindle - Converts to general "Embed" block after pasting url (known open Gutenberg bug, [#68714](https://github.com/WordPress/gutenberg/issues/68714)).<br />
-✅ Pinterest - Profile/board embeds work; individual pin embeds failed to render despite following the documented steps.<br />
-✅ Wolfram<br />
-❌ Bluesky - Converts to general "Embed" block after pasting url.
+| Status | Name         | Comment                                                            |
+| ------ | ------------ | ------------------------------------------------------------------ |
+| ❌     | Classic      | Most text formatting and styles should be covered by other blocks. |
+| ✅     | Code         |                                                                    |
+| ✅     | Details      |                                                                    |
+| ✅     | Heading      |                                                                    |
+| ✅     | List         |                                                                    |
+| ✅     | Math         |                                                                    |
+| ✅     | Paragraph    |                                                                    |
+| ✅     | Poetry       |                                                                    |
+| ✅     | Preformatted |                                                                    |
+| ✅     | Pullquote    |                                                                    |
+| ✅     | Quote        |                                                                    |
+| ✅     | Table        |                                                                    |
+
+## Theme
+
+[Raw code snippet 📄](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-theme.html)
+
+| Status | Name                           | Comment                                                                           |
+| ------ | ------------------------------ | --------------------------------------------------------------------------------- |
+| ✅     | Archive title                  | Only in the archive pages and will not be visible on other pages of the website.  |
+| ❌     | Author                         | It's been [deprecated](https://github.com/WordPress/gutenberg/issues/53427).      |
+| ✅     | Author biography               |                                                                                   |
+| ✅     | Author name                    |                                                                                   |
+| ✅     | Avatar                         |                                                                                   |
+| ✅     | Breadcrumbs                    |                                                                                   |
+| ✅     | Categories                     |                                                                                   |
+| ✅     | Comments                       |                                                                                   |
+| ✅     | Comments > Comment author name |                                                                                   |
+| ✅     | Comments > Comment content     |                                                                                   |
+| ✅     | Comments > Comment date        |                                                                                   |
+| ✅     | Comments > Comment edit link   |                                                                                   |
+| ✅     | Comments > Comment pagination  |                                                                                   |
+| ✅     | Comments > Comment reply link  |                                                                                   |
+| ✅     | Comments > Comment template    |                                                                                   |
+| ✅     | Comments > Comment title       |                                                                                   |
+| ✅     | Comments count                 |                                                                                   |
+| ✅     | Comments form                  |                                                                                   |
+| ✅     | Comments link                  |                                                                                   |
+| ✅     | Date                           |                                                                                   |
+| ✅     | Excerpt                        |                                                                                   |
+| ✅     | Featured image                 |                                                                                   |
+| ✅     | Login/out                      |                                                                                   |
+| ✅     | Modified date                  |                                                                                   |
+| ✅     | Navigation                     |                                                                                   |
+| ✅     | Navigation > Custom link       |                                                                                   |
+| ✅     | Navigation > Home link         |                                                                                   |
+| ✅     | Navigation > Submenu           |                                                                                   |
+| ✅     | Next post                      |                                                                                   |
+| ✅     | Post date                      |                                                                                   |
+| ❌     | Post navigation link           | There's no block for this. It's a combination of "Previous post" and "Next post". |
+| ✅     | Post types label               |                                                                                   |
+| ✅     | Previous post                  |                                                                                   |
+| ✅     | Query loop                     |                                                                                   |
+| ✅     | Query loop > Pagination        |                                                                                   |
+| ✅     | Query loop > Post content      |                                                                                   |
+| ✅     | Query loop > Post template     |                                                                                   |
+| ✅     | Query loop > Query total       |                                                                                   |
+| ❌     | Query title                    | This is made up of two blocks: "Archive title" and "Search results title".        |
+| ✅     | Read more                      |                                                                                   |
+| ✅     | Search results title           | Only in the search results and will not be visible on other pages of the website. |
+| ✅     | Site logo                      |                                                                                   |
+| ✅     | Site tagline                   |                                                                                   |
+| ✅     | Site title                     |                                                                                   |
+| ✅     | Tags                           |                                                                                   |
+| ❌     | Template part                  | This is theme specific.                                                           |
+| ✅     | Term count                     | Only in the archive pages and will not be visible on other pages of the website.  |
+| ✅     | Term description               | Only in the archive pages and will not be visible on other pages of the website.  |
+| ✅     | Term name                      | Only in the archive pages and will not be visible on other pages of the website.  |
+| ✅     | Terms query                    |                                                                                   |
+| ✅     | Time to read                   |                                                                                   |
+| ✅     | Title                          |                                                                                   |
+| ✅     | Word count                     |                                                                                   |
+
+## Widgets
+
+[Raw code snippet 📄](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-widgets.html)
+
+| Status | Name                   | Comment |
+| ------ | ---------------------- | ------- |
+| ✅     | Archives               |         |
+| ✅     | Calendar               |         |
+| ✅     | Categories list        |         |
+| ✅     | Custom HTML            |         |
+| ✅     | Latest comments        |         |
+| ✅     | Latest posts           |         |
+| ✅     | Page list              |         |
+| ✅     | RSS                    |         |
+| ✅     | Search                 |         |
+| ✅     | Shortcode              |         |
+| ✅     | Social icons           |         |
+| ✅     | Tag cloud              |         |
+| ✅     | Terms list (tags list) |         |
