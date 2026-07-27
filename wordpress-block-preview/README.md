@@ -10,7 +10,7 @@ To use, click the three vertical dots in the upper right corner of the WordPress
 | ❌   | Ignoring |
 | ❓   | Pending  |
 
-Within the code, certain blocks appear more than once (like paragraph) because I've done variations of that block. Additionally, it's worth mentioning that you'll need to have dummy content for certain blocks to show anything (like "Latest posts" or "Comments link"). To do this, I used [FakerPress plugin](https://wordpress.org/plugins/fakerpress).
+Within the code, certain blocks appear more than once (like "Paragraph") because I've done variations of that block. Additionally, it's worth mentioning that you'll need to have dummy content for certain blocks to show anything (like "Latest posts" or "Comments link"). To do this, I used [FakerPress plugin](https://wordpress.org/plugins/fakerpress).
 
 **Credits:**
 
@@ -64,9 +64,9 @@ Within the code, certain blocks appear more than once (like paragraph) because I
 | ✅     | Pocket Casts  |                                                                                                                                |
 | ✅     | Reddit        |                                                                                                                                |
 | ❌     | ReverbNation  | Converts to general "Embed" block after pasting url.                                                                           |
-| ❌     | Screencast    | Block variation removed from Gutenberg core. Legacy screencast.com hosting service it targeted was retired ~2023.              |
+| ❌     | Screencast    | Variation removed from Gutenberg core. Legacy screencast.com hosting servic was retired ~2023.                                 |
 | ✅     | Scribd        |                                                                                                                                |
-| ❌     | SlideShare    | Block variation removed from Gutenberg core. Docs are outdated. SlideShare content now lives under Scribd.                     |
+| ❌     | SlideShare    | Variation removed from Gutenberg core. Docs are outdated. SlideShare content now lives under Scribd.                           |
 | ✅     | SmugMug       | This should work, but embedded content from SmugMug won't show in the editor.                                                  |
 | ✅     | SoundCloud    |                                                                                                                                |
 | ✅     | Speaker Deck  |                                                                                                                                |
@@ -122,8 +122,8 @@ Within the code, certain blocks appear more than once (like paragraph) because I
 
 | Status | Name                           | Comment                                                                           |
 | ------ | ------------------------------ | --------------------------------------------------------------------------------- |
-| ✅     | Archive title                  | Only in the archive pages and will not be visible on other pages of the website.  |
-| ❌     | Author                         | It's been [deprecated](https://github.com/WordPress/gutenberg/issues/53427).      |
+| ✅     | Archive title                  | Only in the archive pages and will not be visible on other pages.                 |
+| ❌     | Author                         | [Deprecated](https://github.com/WordPress/gutenberg/issues/53427).                |
 | ✅     | Author biography               |                                                                                   |
 | ✅     | Author name                    |                                                                                   |
 | ✅     | Avatar                         |                                                                                   |
@@ -162,15 +162,15 @@ Within the code, certain blocks appear more than once (like paragraph) because I
 | ✅     | Query loop > Query total       |                                                                                   |
 | ❌     | Query title                    | This is made up of two blocks: "Archive title" and "Search results title".        |
 | ✅     | Read more                      |                                                                                   |
-| ✅     | Search results title           | Only in the search results and will not be visible on other pages of the website. |
+| ✅     | Search results title           | Only in the search results and will not be visible on other pages.                |
 | ✅     | Site logo                      |                                                                                   |
 | ✅     | Site tagline                   |                                                                                   |
 | ✅     | Site title                     |                                                                                   |
 | ✅     | Tags                           |                                                                                   |
 | ❌     | Template part                  | This is theme specific.                                                           |
-| ✅     | Term count                     | Only in the archive pages and will not be visible on other pages of the website.  |
-| ✅     | Term description               | Only in the archive pages and will not be visible on other pages of the website.  |
-| ✅     | Term name                      | Only in the archive pages and will not be visible on other pages of the website.  |
+| ✅     | Term count                     | Only in the archive pages and will not be visible on other pages.                 |
+| ✅     | Term description               | Only in the archive pages and will not be visible on other pages.                 |
+| ✅     | Term name                      | Only in the archive pages and will not be visible on other pages.                 |
 | ✅     | Terms query                    |                                                                                   |
 | ✅     | Time to read                   |                                                                                   |
 | ✅     | Title                          |                                                                                   |
