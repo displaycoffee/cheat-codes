@@ -139,35 +139,35 @@ Within the code, certain blocks appear more than once (like paragraph) because I
 ### Embed Blocks - [Code](https://raw.githubusercontent.com/displaycoffee/cheat-codes/refs/heads/production/wordpress-block-preview/wordpress-block-preview-embed.html)
 
 ❓ Embed<br />
-❓ X<br />
+❌ X - Converts to general "Embed" block after pasting url.<br />
 ✅ YouTube<br />
-❓ WordPress<br />
+❌ WordPress - Converts to general "Embed" block after pasting url.<br />
 ✅ SoundCloud<br />
 ✅ Spotify<br />
-❓ Flickr<br />
-❓ Vimeo<br />
-❓ Animoto<br />
-❓ CloudUp<br />
-❓ Crowdsignal<br />
-❓ Dailymotion<br />
-❓ Imgur<br />
-❓ Issuu<br />
-❓ Kickstarter<br />
-❓ Mixcloud<br />
-❓ Pocket Casts<br />
-❓ Reddit<br />
-❓ ReverbNation<br />
-❓ Screencast<br />
-❓ Scribd<br />
-❓ Slideshare<br />
-❓ SmugMug<br />
-❓ Speaker Deck<br />
+✅ Flickr<br />
+✅ Vimeo<br />
+❌ Animoto - Skipping. No public share link available to test with.<br />
+✅ CloudUp - Example taken from WordPress documentation on this block.<br />
+✅ Crowdsignal - Example taken from WordPress documentation on this block.<br />
+✅ Dailymotion<br />
+✅ Imgur<br />
+✅ Issuu<br />
+❌ Kickstarter - Fails to embed. Kickstarter's bot protection blocks WordPress's server-side oEmbed fetch.<br />
+✅ Mixcloud<br />
+✅ Pocket Casts<br />
+✅ Reddit<br />
+❌ ReverbNation - Converts to general "Embed" block after pasting url.<br />
+❌ Screencast - Block variation removed from Gutenberg core; the legacy screencast.com hosting service it targeted was retired ~2023.<br />
+✅ Scribd<br />
+❌ SlideShare - Block variation removed from Gutenberg core; docs are outdated. SlideShare content now lives under Scribd.<br />
+✅ SmugMug - This should work, but embedded content from SmugMug won't show in the editor.<br />
+✅ Speaker Deck<br />
 ✅ TikTok<br />
-❓ TED<br />
+✅ TED<br />
 ✅ Tumblr<br />
-❓ VideoPress<br />
-✅ WordPress.tv (VideoPress)<br />
-❓ Amazon Kindle<br />
-❓ Pinterest<br />
-❓ Wolfram<br />
-❓ Bluesky
+✅ VideoPress<br />
+✅ WordPress.tv - Uses VideoPress embed block.<br />
+❌ Amazon Kindle - Converts to general "Embed" block after pasting url (known open Gutenberg bug, [#68714](https://github.com/WordPress/gutenberg/issues/68714)).<br />
+✅ Pinterest - Profile/board embeds work; individual pin embeds failed to render despite following the documented steps.<br />
+✅ Wolfram<br />
+❌ Bluesky - Converts to general "Embed" block after pasting url.
