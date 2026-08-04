@@ -17,7 +17,7 @@ const dcBannerCodeGenerator = {
 		};
 
 		// Build code for code block
-		const imageCode = `&lt;img${setImageAttr('src')}${setImageAttr('alt')}${setImageAttr('title')} /&gt;`;
+		const imageCode = `&lt;img${setImageAttr('src')}${setImageAttr('alt')} /&gt;`;
 		const output = `&lt;a href="${site}"&gt;\u000D\u0009${imageCode}\u000D&lt;/a&gt;`;
 		code.innerHTML = output;
 	},

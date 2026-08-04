@@ -39,7 +39,7 @@ export const BannerCodeGenerator = (props) => {
 			<>
 				{`\u003Ca href="${site}"\u003E`}
 				<br />
-				{`\u0009\u003Cimg${setImageAttr('src')}${setImageAttr('alt')}${setImageAttr('title')} /\u003E`}
+				{`\u0009\u003Cimg${setImageAttr('src')}${setImageAttr('alt')} /\u003E`}
 				<br />
 				{`\u003C/a\u003E`}
 			</>
@@ -95,7 +95,6 @@ export const BannerCodeGenerator = (props) => {
 											<img
 												src={value?.src ? value.src : ''}
 												alt={imageAlt}
-												title={imageAlt}
 												onLoad={(e) => {
 													e.target.setAttribute('width', e.target.naturalWidth);
 													e.target.setAttribute('height', e.target.naturalHeight);
