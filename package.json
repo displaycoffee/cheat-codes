@@ -12,15 +12,19 @@
 		"lint": "eslint \"**/*.{js,jsx}\" --quiet"
 	},
 	"devDependencies": {
-		"eslint": "^9.0.0",
+		"eslint": "^9.39.5",
 		"eslint-config-prettier": "^10.1.8",
-		"eslint-import-resolver-typescript": "^4.4.4",
 		"eslint-plugin-import": "^2.32.0",
 		"eslint-plugin-jsx-a11y": "^6.10.2",
 		"eslint-plugin-react": "^7.37.5",
-		"eslint-plugin-react-hooks": "^7.0.1",
-		"prettier": "^3.8.1",
-		"sass": "1.78.0"
+		"eslint-plugin-react-hooks": "^7.1.1",
+		"prettier": "^3.9.6",
+		"sass": "^1.104.1"
+	},
+	"dependencies": {
+		"framer-motion": "^13.3.0",
+		"react": "^19.3.0",
+		"react-dom": "^19.3.0"
 	},
 	"repository": {
 		"type": "git",
