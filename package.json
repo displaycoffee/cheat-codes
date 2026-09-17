@@ -1,7 +1,8 @@
 {
 	"name": "cheat-codes",
-	"version": "1.0.0",
+	"displayName": "Cheat Codes",
 	"description": "This repo contains code snippets for sites, projects, or whatever your heart fancies.",
+	"version": "1.0.0",
 	"type": "module",
 	"keywords": [],
 	"author": "displaycoffee",
