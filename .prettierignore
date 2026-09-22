@@ -1,6 +1,7 @@
 *.scss
 *.css
 .eslintrc
+src/routeTree.gen.ts
 wordpress-block-preview/wordpress-block-preview.html
 wordpress-block-preview/wordpress-block-preview-all.html
 wordpress-block-preview/wordpress-block-preview-design.html
