@@ -1,3 +1,6 @@
+// Built-in Sass modules
+@use 'sass:color';
+
 //// BEST FRIENDS
 //// --------------------------------------------------------------------------
 
@@ -34,7 +37,7 @@
 		max-width: 100%;
 		margin: 0;
 		background-color: $best-friends-color-01;
-		border: 1px solid darken($best-friends-color-01, 5%);
+		border: 1px solid color.adjust($best-friends-color-01, $lightness: -5%);
 		&, & * {
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
@@ -115,7 +118,7 @@
 							-o-border-radius: 0;
 							border-radius: 0;
 							background-color: $best-friends-color-09;
-							border-color: darken($best-friends-color-09, 5%);
+							border-color: color.adjust($best-friends-color-09, $lightness: -5%);
 							border-left-width: 0;
 							border-right-width: 0;
 							border-bottom-width: 0;
@@ -123,7 +126,7 @@
 						}
 						.dc-hello-content-active {
 							background-color: $best-friends-color-10;
-							border-color: darken($best-friends-color-10, 5%);
+							border-color: color.adjust($best-friends-color-10, $lightness: -5%);
 						}
 					}
 				}
