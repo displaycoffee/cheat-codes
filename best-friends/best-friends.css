@@ -9,8 +9,6 @@
 		border: 1px solid #2d3038;
 	}
 	.dc-best-friends, .dc-best-friends * {
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 		font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 		font-size: 14px;
@@ -71,7 +69,6 @@
 		border: 0;
 	}
 	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list {
-		-ms-gap: 0;
 		gap: 0;
 	}
 	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list,
@@ -80,10 +77,6 @@
 		padding: 0;
 	}
 	.dc-best-friends .dc-hello-content-tabs .dc-hello-content-tabs-buttons .dc-hello-content-tabs-list li .dc-hello-content-button {
-		-webkit-border-radius: 0;
-		-moz-border-radius: 0;
-		-ms-border-radius: 0;
-		-o-border-radius: 0;
 		border-radius: 0;
 		background-color: #50634e;
 		border-color: #445543;

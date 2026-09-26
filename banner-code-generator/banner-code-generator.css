@@ -2,8 +2,6 @@
     -------------------------------------------------------------------------- */
 
 	.dc-banner-code-generator, .dc-banner-code-generator * {
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 	.dc-banner-code-generator > * {
@@ -16,22 +14,13 @@
 		margin: 0 0 10px 0;
 	}
 	.dc-banner-code-generator .dc-banner-code-generator-section .dc-banner-code-generator-banners {
-		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: -moz-flex;
 		display: flex;
-		-webkit-align-items: center;
 		align-items: center;
-		-ms-gap: 10px;
 		gap: 10px;
 	}
 	.dc-banner-code-generator .dc-banner-code-generator-section .dc-banner-code-generator-banners .dc-banner-code-generator-button {
 		min-width: 1px;
-		-webkit-flex: 0 1 auto;
-		-ms-flex: 0 1 auto;
-		-moz-flex: 0 1 auto;
 		flex: 0 1 auto;
 		padding: 0;
 		background-color: transparent;
