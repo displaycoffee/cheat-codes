@@ -9,7 +9,7 @@ import globals from 'globals';
 
 export default [
 	{
-		ignores: ['**/*.js'],
+		ignores: ['**/*.js', '!scripts/**/*.js'],
 	},
 	{
 		languageOptions: {
