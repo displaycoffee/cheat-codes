@@ -10,8 +10,6 @@
 		background-color: #2a1c15;
 	}
 	.dc-dragony, .dc-dragony * {
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 		font-family: Tahoma, Arial, Helvetica, sans-serif;
 		font-size: 12px;
@@ -43,10 +41,11 @@
 		text-transform: lowercase;
 	}
 	.dc-dragony a {
+		font-weight: 700;
 		color: #4d5f0d;
+		text-decoration: none;
 	}
 	.dc-dragony a:hover {
-		font-weight: 700;
 		color: #ffffff;
 	}
 	.dc-dragony .dc-dragony-header h3 {

@@ -2,15 +2,13 @@
     -------------------------------------------------------------------------- */
 
 	.dc-wish-you-were-here, .dc-wish-you-were-here * {
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 	.dc-wish-you-were-here {
 		max-width: 100%;
-		border: 2px solid #c97f4a;
-		border-bottom: 20px solid #c97f4a;
-		background-color: #373026;
+		border: 2px solid #492a14;
+		border-bottom: 20px solid #492a14;
+		background-color: #371f0e;
 	}
 	.dc-wish-you-were-here * {
 		font-family: Lato, Arial, Helvetica, sans-serif;
@@ -19,7 +17,7 @@
 		color: #ffffff;
 	}
 	.dc-wish-you-were-here a {
-		color: #c97f4a;
+		color: #d19265;
 		text-decoration: none;
 	}
 	.dc-wish-you-were-here .dc-wish-you-were-here-content a:hover {
@@ -63,7 +61,7 @@
 		bottom: -30px;
 		right: 0;
 		left: 0;
-		background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23373026' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23371f0e' /%3E%3C/svg%3E");
 		background-size: auto 100%;
 		background-repeat: repeat-x;
 	}
@@ -107,20 +105,12 @@
 		text-shadow: 0 2px 0 rgba(0, 0, 0, 1.0);
 	}
 	.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-row {
-		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: -moz-flex;
 		display: flex;
-		-ms-gap: 20px;
 		gap: 20px;
 	}
 	.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-row .dc-wish-you-were-here-column {
 		min-width: 1px;
-		-webkit-flex: 1 1 100%;
-		-ms-flex: 1 1 100%;
-		-moz-flex: 1 1 100%;
 		flex: 1 1 100%;
 	}
 	@media only screen and (min-width: 768px) {
@@ -131,9 +121,6 @@
 			text-align: right;
 		}
 		.dc-wish-you-were-here .dc-wish-you-were-here-content .dc-wish-you-were-here-row .dc-wish-you-were-here-column {
-			-webkit-flex: 0 1 auto;
-			-ms-flex: 0 1 auto;
-			-moz-flex: 0 1 auto;
 			flex: 0 1 auto;
 			width: calc((100% - 20px) / 2);
 		}

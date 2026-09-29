@@ -35,8 +35,6 @@
 		text-align: center;
 		background-color: $dragony-color-01;
 		&, & * {
-			-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
 			box-sizing: border-box;
 			font-family: $dragony-font-family-01;
 			font-size: $dragony-font-size-01;
@@ -70,6 +68,7 @@
 		a {
 			font-weight: 700;
 			color: $dragony-color-04;
+			text-decoration: none;
 			&:hover {
 				color: $dragony-color-05;
 			}

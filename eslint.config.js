@@ -1,3 +1,4 @@
+/* Packages */
 import js from '@eslint/js';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
@@ -8,7 +9,7 @@ import globals from 'globals';
 
 export default [
 	{
-		ignores: ['*.js'],
+		ignores: ['**/*.js', '!scripts/**/*.js'],
 	},
 	{
 		languageOptions: {
@@ -16,8 +17,7 @@ export default [
 			sourceType: 'module',
 			globals: {
 				...globals.browser,
-				...globals.node,
-				...globals.es2020,
+				...globals.es2022,
 			},
 			parserOptions: {
 				ecmaFeatures: { jsx: true },
@@ -29,6 +29,7 @@ export default [
 	},
 	js.configs.recommended,
 	react.configs.flat.recommended,
+	react.configs.flat['jsx-runtime'],
 	reactHooks.configs.flat.recommended,
 	jsxA11y.flatConfigs.recommended,
 	importPlugin.flatConfigs.errors,
@@ -39,7 +40,6 @@ export default [
 			'import/no-unresolved': 'off',
 			'react/no-unescaped-entities': 'off',
 			'react/prop-types': 'off',
-			'react/react-in-jsx-scope': 'off',
 			'react-hooks/exhaustive-deps': 'error',
 		},
 	},
