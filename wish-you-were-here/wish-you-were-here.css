@@ -6,9 +6,9 @@
 	}
 	.dc-wish-you-were-here {
 		max-width: 100%;
-		border: 2px solid #c97f4a;
-		border-bottom: 20px solid #c97f4a;
-		background-color: #373026;
+		border: 2px solid #492a14;
+		border-bottom: 20px solid #492a14;
+		background-color: #371f0e;
 	}
 	.dc-wish-you-were-here * {
 		font-family: Lato, Arial, Helvetica, sans-serif;
@@ -17,7 +17,7 @@
 		color: #ffffff;
 	}
 	.dc-wish-you-were-here a {
-		color: #c97f4a;
+		color: #d19265;
 		text-decoration: none;
 	}
 	.dc-wish-you-were-here .dc-wish-you-were-here-content a:hover {
@@ -61,7 +61,7 @@
 		bottom: -30px;
 		right: 0;
 		left: 0;
-		background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23373026' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23371f0e' /%3E%3C/svg%3E");
 		background-size: auto 100%;
 		background-repeat: repeat-x;
 	}

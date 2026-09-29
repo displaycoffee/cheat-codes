@@ -26,6 +26,7 @@
 	}
 	.dc-a-promise a {
 		color: #4a6c54;
+		text-decoration: none;
 	}
 	.dc-a-promise a:hover {
 		color: #ffffff;

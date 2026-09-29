@@ -3,10 +3,11 @@
 
 	// Colors
 
-	$banner-code-generator-color-01: rgba(0, 0, 0, 0.5); // select button font
-	$banner-code-generator-color-02: #ffffff; // select button font
-	$banner-code-generator-color-03: #111111; // code background
-	$banner-code-generator-color-04: #ffffff; // code font
+	$banner-code-generator-color-01: #111111; // header font color
+	$banner-code-generator-color-02: rgba(0, 0, 0, 0.5); // select button background
+	$banner-code-generator-color-03: #ffffff; // select button font
+	$banner-code-generator-color-04: #111111; // code background
+	$banner-code-generator-color-05: #ffffff; // code font
 
 	// Configuration
 
@@ -34,6 +35,7 @@
 		.dc-banner-code-generator-section {
 			h5 {
 				margin: 0 0 $banner-code-generator-spacing-half 0;
+				color: $banner-code-generator-color-01;
 			}
 			.dc-banner-code-generator-banners {
 				flex-flow: row wrap;
@@ -60,17 +62,18 @@
 				right: 0;
 				border: 0;
 				padding: $banner-code-generator-spacing-half;
-				background-color: $banner-code-generator-color-01;
+				background-color: $banner-code-generator-color-02;
 				font-size: $banner-code-generator-font-size - 2;
 				line-height: 1;
-				color: $banner-code-generator-color-02;
+				color: $banner-code-generator-color-03;
+				cursor: pointer;
 			}
 			pre, code {
-				background-color: $banner-code-generator-color-03;
+				background-color: $banner-code-generator-color-04;
 				margin: 0;
 				padding: $banner-code-generator-spacing;				
 				font-size: $banner-code-generator-font-size;
-				color: $banner-code-generator-color-04;
+				color: $banner-code-generator-color-05;
 				white-space: pre-wrap;
 				word-break: break-word;
 			}
