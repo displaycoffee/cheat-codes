@@ -41,6 +41,7 @@ Within the code, certain blocks appear more than once (like "Paragraph") because
 | ✅     | Separator  |         |
 | ✅     | Spacer     |         |
 | ✅     | Stack      |         |
+| ✅     | Tabs       |         |
 
 ## Embed
 
@@ -95,6 +96,7 @@ Within the code, certain blocks appear more than once (like "Paragraph") because
 | ✅     | Icon         |         |
 | ✅     | Image        |         |
 | ✅     | Media & text |         |
+| ✅     | Playlist     |         |
 | ✅     | Video        |         |
 
 ## Text
