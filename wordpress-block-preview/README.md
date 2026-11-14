@@ -57,7 +57,7 @@ Within the code, certain blocks appear more than once (like "Paragraph") because
 | ❌     | Dailymotion   | The embed works, but the video autoplays with sound, so not adding this.                                                       |
 | ✅     | Embed         |                                                                                                                                |
 | ✅     | Flickr        |                                                                                                                                |
-| ✅     | Imgur         |                                                                                                                                |
+| ❌     | Imgur         | Removed in version 7.1.3 of WordPress                                                                                          |
 | ✅     | Issuu         |                                                                                                                                |
 | ❌     | Kickstarter   | Fails to embed. Kickstarter's bot protection blocks WordPress's server-side oEmbed fetch.                                      |
 | ✅     | Mixcloud      |                                                                                                                                |
@@ -65,7 +65,7 @@ Within the code, certain blocks appear more than once (like "Paragraph") because
 | ✅     | Pocket Casts  |                                                                                                                                |
 | ✅     | Reddit        |                                                                                                                                |
 | ❌     | ReverbNation  | Converts to general "Embed" block after pasting url.                                                                           |
-| ❌     | Screencast    | Variation removed from Gutenberg core. Legacy screencast.com hosting servic was retired ~2023.                                 |
+| ❌     | Screencast    | Variation removed from Gutenberg core. Legacy screencast.com hosting service was retired ~2023.                                |
 | ✅     | Scribd        |                                                                                                                                |
 | ❌     | SlideShare    | Variation removed from Gutenberg core. Docs are outdated. SlideShare content now lives under Scribd.                           |
 | ✅     | SmugMug       | This should work, but embedded content from SmugMug won't show in the editor.                                                  |
